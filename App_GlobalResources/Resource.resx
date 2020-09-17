@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abrirMonitoramento" xml:space="preserve">
+    <value>Abrir Monitoramento</value>
+  </data>
+  <data name="selecioneSubdivisaoManutencao" xml:space="preserve">
+    <value>Selecione a Subdivisão de Manutenção</value>
+  </data>
+  <data name="abrirOrdemServico" xml:space="preserve">
+    <value>Abrir Ordem de Serviço</value>
+  </data>
+  <data name="agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="metros" xml:space="preserve">
+    <value>Metros</value>
+  </data>
+  <data name="monitoracao" xml:space="preserve">
+    <value>Monitoração</value>
+  </data>
+  <data name="movimentar" xml:space="preserve">
+    <value>Movimentar</value>
+  </data>
+  <data name="manutencaoControlador" xml:space="preserve">
+    <value>Manutenção Controlador</value>
+  </data>
+  <data name="idLocalControladorMestre" xml:space="preserve">
+    <value>Id do Local do Controlador Mestre</value>
+  </data>
+  <data name="controladoresConjugados" xml:space="preserve">
+    <value>Controladores Conjugados</value>
+  </data>
+  <data name="localSemConjugado" xml:space="preserve">
+    <value>Este local não tem nenhum conjugado</value>
+  </data>
+  <data name="movimentacaoProdutos" xml:space="preserve">
+    <value>Movimentação de Produtos</value>
+  </data>
+  <data name="tempoAntesEnvioEstagio" xml:space="preserve">
+    <value>Tempo para envio do estágio</value>
+  </data>
+  <data name="alterarUsuario" xml:space="preserve">
+    <value>Alterações</value>
+  </data>
+  <data name="motivo" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="ocorrencia" xml:space="preserve">
+    <value>Ocorrência</value>
+  </data>
+  <data name="subdivisaoSelecionada" xml:space="preserve">
+    <value>Subdivisão selecionada</value>
+  </data>
+  <data name="anel" xml:space="preserve">
+    <value>Anel</value>
+  </data>
+  <data name="detector" xml:space="preserve">
+    <value>Detector</value>
+  </data>
+  <data name="apagado" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="momentoAbertura" xml:space="preserve">
+    <value>Momento de Abertura</value>
+  </data>
+  <data name="origemProduto" xml:space="preserve">
+    <value>Origem do Produto</value>
+  </data>
+  <data name="areaSubArea" xml:space="preserve">
+    <value>Áreas e Subáreas</value>
+  </data>
+  <data name="atencao" xml:space="preserve">
+    <value>Atenção</value>
+  </data>
+  <data name="momentoAberturaNaoPodeSerMenorQue" xml:space="preserve">
+    <value>O momento de abertura não pode ser menor que: </value>
+  </data>
+  <data name="momentoAberturaNaoPodeSerMaiorQue" xml:space="preserve">
+    <value>O momento de abertura não pode ser maior que: </value>
+  </data>
+  <data name="tempoCicloNaoPodeSerMenorQue" xml:space="preserve">
+    <value>O tempo do ciclo não pode ser menor que: </value>
+  </data>
+  <data name="tempoCicloNaoPodeSerMaiorQue" xml:space="preserve">
+    <value>O tempo do ciclo não pode ser maior que: </value>
+  </data>
+  <data name="avisos" xml:space="preserve">
+    <value>Avisos</value>
+  </data>
+  <data name="gprsNobreak" xml:space="preserve">
+    <value>GPRS do Nobreak</value>
+  </data>
+  <data name="Materiais" xml:space="preserve">
+    <value>Materiais</value>
+  </data>
+  <data name="naoPossuiEstagioCadastrado" xml:space="preserve">
+    <value>Este anel não possui estágios cadastrados!</value>
+  </data>
+  <data name="alarmeFalha" xml:space="preserve">
+    <value>Alarme de Falha</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="buscarEndereco" xml:space="preserve">
+    <value>Buscar Endereço...</value>
+  </data>
+  <data name="buscarControlador" xml:space="preserve">
+    <value>Buscar Controlador</value>
+  </data>
+  <data name="cadastros" xml:space="preserve">
+    <value>Cadastros</value>
+  </data>
+  <data name="cadastroUsuario" xml:space="preserve">
+    <value>Cadastros</value>
+  </data>
+  <data name="cancelamento" xml:space="preserve">
+    <value>Cancelamento</value>
+  </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="centralizacao" xml:space="preserve">
+    <value>Centralização</value>
+  </data>
+  <data name="centralizar" xml:space="preserve">
+    <value>Centralizar</value>
+  </data>
+  <data name="complemento" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="configuracoes" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="configuracoesScoot" xml:space="preserve">
+    <value>Configurações Scoot</value>
+  </data>
+  <data name="confirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="realmenteDesejaSalvar" xml:space="preserve">
+    <value>Realmente deseja salvar</value>
+  </data>
+  <data name="semNumeroPatrimonio" xml:space="preserve">
+    <value>sem número de patrimônio</value>
+  </data>
+  <data name="confirmacao" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="controlador" xml:space="preserve">
+    <value>Controlador</value>
+  </data>
+  <data name="addControlador" xml:space="preserve">
+    <value>Adicionar Controlador</value>
+  </data>
+  <data name="addAcessorios" xml:space="preserve">
+    <value>Adicionar Acessórios</value>
+  </data>
+  <data name="controladorAberto" xml:space="preserve">
+    <value>Controlador Aberto</value>
+  </data>
+  <data name="corredor" xml:space="preserve">
+    <value>Corredor</value>
+  </data>
+  <data name="alertQtdEstagioVazio" xml:space="preserve">
+    <value>A quantidade mínima de estágios é 2, e a quantidade máxima é 8!</value>
+  </data>
+  <data name="informeUmAnel" xml:space="preserve">
+    <value>Informe um anel.</value>
+  </data>
+  <data name="croqui" xml:space="preserve">
+    <value>Croqui</value>
+  </data>
+  <data name="cruzamento" xml:space="preserve">
+    <value>Cruzamento</value>
+  </data>
+  <data name="data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="intervaloPlano" xml:space="preserve">
+    <value>O intervalo entre os planos: </value>
+  </data>
+  <data name="intervaloPlanoMinuto" xml:space="preserve">
+    <value> devem ter no mínimo 3 minutos de diferença!</value>
+  </data>
+  <data name="dataFinal" xml:space="preserve">
+    <value>Data Final</value>
+  </data>
+  <data name="dataInicial" xml:space="preserve">
+    <value>Data Inicial</value>
+  </data>
+  <data name="desejaRestarEqp" xml:space="preserve">
+    <value>Deseja resetar esse controlador?</value>
+  </data>
+  <data name="desejaSetarSCEqp" xml:space="preserve">
+    <value>Confirmar o modo sem comunicação para esse controlador?</value>
+  </data>
+  <data name="desligado" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="diagnosticoCampo" xml:space="preserve">
+    <value>Diagnóstico de campo</value>
+  </data>
+  <data name="distancia" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="endereco" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="envio" xml:space="preserve">
+    <value>Envio</value>
+  </data>
+  <data name="estatisticaStatusControlador" xml:space="preserve">
+    <value>Estatísticas Status do Controlador</value>
+  </data>
+  <data name="falhaDeNobreak" xml:space="preserve">
+    <value>Falha de Nobreak</value>
+  </data>
+  <data name="nobreak" xml:space="preserve">
+    <value>Nobreak</value>
+  </data>
+  <data name="dadosNobreak" xml:space="preserve">
+    <value>Dados do Nobreak</value>
+  </data>
+  <data name="coluna" xml:space="preserve">
+    <value>Coluna</value>
+  </data>
+  <data name="cabos" xml:space="preserve">
+    <value>Cabos</value>
+  </data>
+  <data name="listaCabos" xml:space="preserve">
+    <value>Lista de Cabos</value>
+  </data>
+  <data name="addCabo" xml:space="preserve">
+    <value>Adicionar Cabos</value>
+  </data>
+  <data name="falhas" xml:space="preserve">
+    <value>Falhas</value>
+  </data>
+  <data name="qtdMaxEstagios" xml:space="preserve">
+    <value>Qtd. max. de estágios</value>
+  </data>
+  <data name="falhasNaComunicacao" xml:space="preserve">
+    <value>Falhas na Comunicação</value>
+  </data>
+  <data name="faltaEnergia" xml:space="preserve">
+    <value>Falta de Energia</value>
+  </data>
+  <data name="fechar" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="excluirAnel" xml:space="preserve">
+    <value>Excluir Anel</value>
+  </data>
+  <data name="filtrarPorEstatistica" xml:space="preserve">
+    <value>Filtrar por Estatísticas</value>
+  </data>
+  <data name="fusoHorario" xml:space="preserve">
+    <value>Fuso Horário</value>
+  </data>
+  <data name="horarioEntrada" xml:space="preserve">
+    <value>Horário de Entrada</value>
+  </data>
+  <data name="grupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="historicoComunicacao" xml:space="preserve">
+    <value>Histórico de Comunicação</value>
+  </data>
+  <data name="historicoFalhas" xml:space="preserve">
+    <value>Histórico de Falhas</value>
+  </data>
+  <data name="horarioVerao" xml:space="preserve">
+    <value>Horário de Verão</value>
+  </data>
+  <data name="identificacao" xml:space="preserve">
+    <value>Identificação</value>
+  </data>
+  <data name="idPonto" xml:space="preserve">
+    <value>Id do Ponto</value>
+  </data>
+  <data name="imagem" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="impor" xml:space="preserve">
+    <value>Impor</value>
+  </data>
+  <data name="imposicao" xml:space="preserve">
+    <value>Imposição</value>
+  </data>
+  <data name="imposicaoPlano" xml:space="preserve">
+    <value>Imposição de Plano</value>
+  </data>
+  <data name="infoUserInvalido" xml:space="preserve">
+    <value>Usuário Invalido!</value>
+  </data>
+  <data name="infoUserPermissaoReset" xml:space="preserve">
+    <value>Contate un Usuario que possua permissão para efetuar o Reset!</value>
+  </data>
+  <data name="limpar" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="lista" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="listaAneisVinculados" xml:space="preserve">
+    <value>Lista de anéis vinculados</value>
+  </data>
+  <data name="listaGrupoSemaforico" xml:space="preserve">
+    <value>Lista de Grupos Semafóricos</value>
+  </data>
+  <data name="listaGrupoFocal" xml:space="preserve">
+    <value>Lista de Grupo Focal</value>
+  </data>
+  <data name="listaRotas" xml:space="preserve">
+    <value>Lista de Rotas</value>
+  </data>
+  <data name="logs" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="listaColunas" xml:space="preserve">
+    <value>Lista de Colunas</value>
+  </data>
+  <data name="addColunas" xml:space="preserve">
+    <value>Adicionar Colunas</value>
+  </data>
+  <data name="mapa" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="minutos" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="modoOperacional" xml:space="preserve">
+    <value>Modo Operacional</value>
+  </data>
+  <data name="moduloDeComunicacao" xml:space="preserve">
+    <value>Módulo de Comunicação</value>
+  </data>
+  <data name="msgErroEqpNaoCentralizado" xml:space="preserve">
+    <value>É necessário todos os controladores vinculados estarem centralizados</value>
+  </data>
+  <data name="nao" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="naoHaRegistros" xml:space="preserve">
+    <value>Não há registros!</value>
+  </data>
+  <data name="naoTemHistoricoComunicacaoEqp" xml:space="preserve">
+    <value>Não ha um historico de Comunicação para este controlador!</value>
+  </data>
+  <data name="naoTemHistoricoFalhaEqp" xml:space="preserve">
+    <value>Não ha um historico de falhas para este controlador!</value>
+  </data>
+  <data name="normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="opcoes" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="pendente" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="permissaoParaReset" xml:space="preserve">
+    <value>Permissão para o Reset</value>
+  </data>
+  <data name="pesquisar" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="planoImposicaoNaoExiste" xml:space="preserve">
+    <value>O plano de solicitação da imposição não é existente nos controladores da subárea!</value>
+  </data>
+  <data name="planos" xml:space="preserve">
+    <value>Planos</value>
+  </data>
+  <data name="porta" xml:space="preserve">
+    <value>Porta</value>
+  </data>
+  <data name="prefeitura" xml:space="preserve">
+    <value>Prefeitura</value>
+  </data>
+  <data name="programacao" xml:space="preserve">
+    <value>Programação</value>
+  </data>
+  <data name="programadorSemaforico" xml:space="preserve">
+    <value>Programador Semafórico</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="selecione" xml:space="preserve">
+    <value>─ SELECIONE ─</value>
+  </data>
+  <data name="selecioneFalha" xml:space="preserve">
+    <value>Selecione a Falha!</value>
+  </data>
+  <data name="selecionePlacaDesejaUtilizar" xml:space="preserve">
+    <value>Selecione a Placa que deseja utilizar</value>
+  </data>
+  <data name="selecioneColunaDesejaUtilizar" xml:space="preserve">
+    <value>Selecione a Coluna que deseja utilizar</value>
+  </data>
+  <data name="semaforo" xml:space="preserve">
+    <value>Semáforo</value>
+  </data>
+  <data name="semaforoAmareloIntermitente" xml:space="preserve">
+    <value>Semáforo em Amarelo Intermitente</value>
+  </data>
+  <data name="semaforoApagado" xml:space="preserve">
+    <value>Semáforo Apagado</value>
+  </data>
+  <data name="semaforoEstacionado" xml:space="preserve">
+    <value>Semáforo Estacionado</value>
+  </data>
+  <data name="semComunicacao" xml:space="preserve">
+    <value>Sem Comunicação</value>
+  </data>
+  <data name="senha" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="sim" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="sincronizacao" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="sincronizacoesPendentes" xml:space="preserve">
+    <value>Sincronizações Pendentes</value>
+  </data>
+  <data name="site_name" xml:space="preserve">
+    <value>Central Semaforica</value>
+  </data>
+  <data name="solicitacao" xml:space="preserve">
+    <value>Solicitação</value>
+  </data>
+  <data name="solicitada" xml:space="preserve">
+    <value>Solicitada</value>
+  </data>
+  <data name="subArea" xml:space="preserve">
+    <value>Subárea</value>
+  </data>
+  <data name="subAreaAgenda" xml:space="preserve">
+    <value>Vincular subáreas na agenda</value>
+  </data>
+  <data name="subtensao" xml:space="preserve">
+    <value>Subtensão</value>
+  </data>
+  <data name="sucesso" xml:space="preserve">
+    <value>Sucesso</value>
+  </data>
+  <data name="tarefas" xml:space="preserve">
+    <value>Tarefas</value>
+  </data>
+  <data name="tarefasPendentes" xml:space="preserve">
+    <value>Tarefas Pendentes</value>
+  </data>
+  <data name="tempoPercurso" xml:space="preserve">
+    <value>Tempo Percurso</value>
+  </data>
+  <data name="tempoSemComunicar" xml:space="preserve">
+    <value>Tempo sem Comunicar</value>
+  </data>
+  <data name="tentativaConexao" xml:space="preserve">
+    <value>Tentativa Conexão</value>
+  </data>
+  <data name="tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ultimaAtualizacao" xml:space="preserve">
+    <value>Última Atualização</value>
+  </data>
+  <data name="ultimaAtualizacaoProgramacao" xml:space="preserve">
+    <value>Ultima atualização programação</value>
+  </data>
+  <data name="ultimaComunicacao" xml:space="preserve">
+    <value>Ultima comunicação</value>
+  </data>
+  <data name="usuarios" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="usuariosPermissoes" xml:space="preserve">
+    <value>Permissões</value>
+  </data>
+  <data name="verAgenda" xml:space="preserve">
+    <value>Ver Agenda</value>
+  </data>
+  <data name="versao" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="vinculoSubArea" xml:space="preserve">
+    <value>Vínculos Subárea</value>
+  </data>
+  <data name="voltar" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="centralizado" xml:space="preserve">
+    <value>Centralizado</value>
+  </data>
+  <data name="aberto" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="abrir" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="dadoNaoCadastrado" xml:space="preserve">
+    <value>Dados não cadastrados</value>
+  </data>
+  <data name="dadosControlador" xml:space="preserve">
+    <value>Dados do Controlador</value>
+  </data>
+  <data name="nPatrimonio" xml:space="preserve">
+    <value>Nº Patrimônio</value>
+  </data>
+  <data name="nLinha" xml:space="preserve">
+    <value>Nº da Linha</value>
+  </data>
+  <data name="modelo" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="nomeAcessorio" xml:space="preserve">
+    <value>Nome do Acessório</value>
+  </data>
+  <data name="formaOperacional" xml:space="preserve">
+    <value>Forma Operacional</value>
+  </data>
+  <data name="meioInstalacao" xml:space="preserve">
+    <value>Meio de Instalação</value>
+  </data>
+  <data name="tipoInstalacao" xml:space="preserve">
+    <value>Tipo de Instalação</value>
+  </data>
+  <data name="filtroDePesquisa" xml:space="preserve">
+    <value>Filtros de Pesquisa</value>
+  </data>
+  <data name="selControladorDesejado" xml:space="preserve">
+    <value>Selecione o controlador que deseja utilizar</value>
+  </data>
+  <data name="selCaboDesejado" xml:space="preserve">
+    <value>Selecione o Cabo que deseja utilizar</value>
+  </data>
+  <data name="selNobreakDesejado" xml:space="preserve">
+    <value>Selecione o Nobreak que deseja utilizar</value>
+  </data>
+  <data name="selAcessorioDesejado" xml:space="preserve">
+    <value>Selecione o Acessório que deseja utilizar</value>
+  </data>
+  <data name="selAlmoxarifado" xml:space="preserve">
+    <value>Selecione o Almoxarifado</value>
+  </data>
+  <data name="horarioBrasilia" xml:space="preserve">
+    <value>Horário de Brasília</value>
+  </data>
+  <data name="informeSenha" xml:space="preserve">
+    <value>Informe a senha</value>
+  </data>
+  <data name="informeUsuario" xml:space="preserve">
+    <value>Informe o usuário</value>
+  </data>
+  <data name="semProgramacao" xml:space="preserve">
+    <value>Sem Programação</value>
+  </data>
+  <data name="AgendaExisteMesmoNome" xml:space="preserve">
+    <value>Já existe uma agenda com esse nome</value>
+  </data>
+  <data name="agendamento" xml:space="preserve">
+    <value>Agendamento</value>
+  </data>
+  <data name="agrupar" xml:space="preserve">
+    <value>Agrupar</value>
+  </data>
+  <data name="aguarde" xml:space="preserve">
+    <value>Aguarde</value>
+  </data>
+  <data name="alert_agendaTodoDia" xml:space="preserve">
+    <value>Agenda não possui todos os dias da semana!</value>
+  </data>
+  <data name="alert_horaInicialIgualFinal" xml:space="preserve">
+    <value>A Hora Inicial não pode ser igual a Hora Final!</value>
+  </data>
+  <data name="alert_vinculoGruposAreaMapa" xml:space="preserve">
+    <value>Os grupos semáforicos deverão estar no mapa para serem vinculados</value>
+  </data>
+  <data name="alteracoes" xml:space="preserve">
+    <value>Alterações</value>
+  </data>
+  <data name="alterar" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="amareloIntermitente" xml:space="preserve">
+    <value>Amarelo Intermitente</value>
+  </data>
+  <data name="area" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="cadastrar" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="carregando" xml:space="preserve">
+    <value>Carregando</value>
+  </data>
+  <data name="desenhar" xml:space="preserve">
+    <value>Desenhar</value>
+  </data>
+  <data name="detalhes" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="etiquetas" xml:space="preserve">
+    <value>Etiquetas</value>
+  </data>
+  <data name="epc" xml:space="preserve">
+    <value>EPC</value>
+  </data>
+  <data name="dias" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="qtdPlanos" xml:space="preserve">
+    <value>Qtd de Planos</value>
+  </data>
+  <data name="domingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="editar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="editarPermissoes" xml:space="preserve">
+    <value>Editar Permissões</value>
+  </data>
+  <data name="especial" xml:space="preserve">
+    <value>Especial</value>
+  </data>
+  <data name="excluido" xml:space="preserve">
+    <value>Excluído!</value>
+  </data>
+  <data name="excluir" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="existem" xml:space="preserve">
+    <value>Existem</value>
+  </data>
+  <data name="final" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="gruposVinculados" xml:space="preserve">
+    <value>Grupos Vinculados</value>
+  </data>
+  <data name="hora" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="horarioAgendaExistente" xml:space="preserve">
+    <value>Já existe agenda com esse horário</value>
+  </data>
+  <data name="horarios" xml:space="preserve">
+    <value>Horários</value>
+  </data>
+  <data name="informacao" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="inicial" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="invalida" xml:space="preserve">
+    <value>Inválida</value>
+  </data>
+  <data name="naoPossuiPlanoConfigurado" xml:space="preserve">
+    <value>Não possui plano configurado</value>
+  </data>
+  <data name="nome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="novo" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="plano" xml:space="preserve">
+    <value>Plano</value>
+  </data>
+  <data name="planoConfigMesmoPeriodo" xml:space="preserve">
+    <value>planos configurados na tabela especial no mesmo período</value>
+  </data>
+  <data name="planosConfigMesmoHorario" xml:space="preserve">
+    <value>planos configurados na agenda no mesmo horário</value>
+  </data>
+  <data name="quarta" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="quinta" xml:space="preserve">
+    <value>Quinta</value>
+  </data>
+  <data name="sabado" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="salvar" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="simSalvar" xml:space="preserve">
+    <value>Sim, salvar!</value>
+  </data>
+  <data name="segunda" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="selecioneAgenda" xml:space="preserve">
+    <value>Selecione a agenda</value>
+  </data>
+  <data name="selecioneArea" xml:space="preserve">
+    <value>Selecione a área</value>
+  </data>
+  <data name="selecioneDiaSemana" xml:space="preserve">
+    <value>Selecione o dia da semana!</value>
+  </data>
+  <data name="selecioneSubArea" xml:space="preserve">
+    <value>Selecione a subárea</value>
+  </data>
+  <data name="semana" xml:space="preserve">
+    <value>Semana</value>
+  </data>
+  <data name="sexta" xml:space="preserve">
+    <value>Sexta</value>
+  </data>
+  <data name="subAreaVinculadaAgenda" xml:space="preserve">
+    <value>A Subárea já está vinculada em uma agenda!</value>
+  </data>
+  <data name="tabela" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="terca" xml:space="preserve">
+    <value>Terça</value>
+  </data>
+  <data name="todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="todosOsDias" xml:space="preserve">
+    <value>Todos os Dias</value>
+  </data>
+  <data name="validada" xml:space="preserve">
+    <value>Validada</value>
+  </data>
+  <data name="validar" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="vincularGrupos" xml:space="preserve">
+    <value>Vincular Grupos</value>
+  </data>
+  <data name="botaoDireitoParaOpcoes" xml:space="preserve">
+    <value>Clique com o botão direito para mais opções</value>
+  </data>
+  <data name="cadastroArea" xml:space="preserve">
+    <value>Cadastro de Áreas</value>
+  </data>
+  <data name="campoObrigatorio" xml:space="preserve">
+    <value>Campo obrigatório</value>
+  </data>
+  <data name="excluidoSucesso" xml:space="preserve">
+    <value>Excluído com sucesso.</value>
+  </data>
+  <data name="imprimir" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="listaEqpVinculado" xml:space="preserve">
+    <value>Lista de controladores vinculados</value>
+  </data>
+  <data name="naoFoiPossivelSalvarArea" xml:space="preserve">
+    <value>Não foi possível salvar a área</value>
+  </data>
+  <data name="naoFoiPossivelSalvarProduto" xml:space="preserve">
+    <value>Não foi possível salvar o produto.</value>
+  </data>
+    <data name="numeroSerieEmUso" xml:space="preserve">
+    <value>Este Número de Série já está sendo utilizado.</value>
+  </data>
+  <data name="renomear" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="salvoComSucesso" xml:space="preserve">
+    <value>Salvo com sucesso</value>
+  </data>
+  <data name="preenchaTodosOsCamposDoDetector" xml:space="preserve">
+    <value>Preencha todos os campos do Detector!</value>
+  </data>
+  <data name="vincularControlador" xml:space="preserve">
+    <value>Vincular Controlador</value>
+  </data>
+  <data name="areaExistente" xml:space="preserve">
+    <value>Já existe uma área com o mesmo nome</value>
+  </data>
+  <data name="continuar" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="controladorDesvinculado" xml:space="preserve">
+    <value>Controlador Desvinculado</value>
+  </data>
+  <data name="controladorVinculado" xml:space="preserve">
+    <value>Controlador Vinculado</value>
+  </data>
+  <data name="desejaExcluirArea" xml:space="preserve">
+    <value>Tem Certeza que deseja excluir a área?</value>
+  </data>
+  <data name="exclusaoPodePerderDados" xml:space="preserve">
+    <value>Na exclusão da área você poderá perder dados vinculados!</value>
+  </data>
+  <data name="naoHaEqpVinculadoNaSubArea" xml:space="preserve">
+    <value>Não há controlador vinculado com essa Subárea</value>
+  </data>
+  <data name="nomeExistente" xml:space="preserve">
+    <value>Esse nome já existe</value>
+  </data>
+  <data name="preenchaNomeArea" xml:space="preserve">
+    <value>Preencha o nome da área</value>
+  </data>
+  <data name="preenchaNomeSubArea" xml:space="preserve">
+    <value>Preencha o nome da Subárea</value>
+  </data>
+  <data name="subareaExistente" xml:space="preserve">
+    <value>Já existe uma subárea com o mesmo nome</value>
+  </data>
+  <data name="abrirCameras" xml:space="preserve">
+    <value>Abrir Câmeras</value>
+  </data>
+  <data name="adicionar" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="anexar" xml:space="preserve">
+    <value>Anexar</value>
+  </data>
+  <data name="arquivo" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="camera" xml:space="preserve">
+    <value>Câmera</value>
+  </data>
+  <data name="comunicacaoServico" xml:space="preserve">
+    <value>Comunicação por Serviço</value>
+  </data>
+  <data name="conjugados" xml:space="preserve">
+    <value>Conjugados</value>
+  </data>
+  <data name="consorcio" xml:space="preserve">
+    <value>Consórcio</value>
+  </data>
+  <data name="disponibilidade" xml:space="preserve">
+    <value>Disponibilidade</value>
+  </data>
+  <data name="empresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="gruposSemaforicos" xml:space="preserve">
+    <value>Grupos Semáforicos</value>
+  </data>
+  <data name="habilitado" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="habilitarCentral" xml:space="preserve">
+    <value>Habilitar Central</value>
+  </data>
+  <data name="informeDnaMestre" xml:space="preserve">
+    <value>Informe o Dna Mestre</value>
+  </data>
+  <data name="latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="longitude" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="mestre" xml:space="preserve">
+    <value>Mestre</value>
+  </data>
+  <data name="moduloComunicacao" xml:space="preserve">
+    <value>Módulo de Comunicação</value>
+  </data>
+  <data name="novaCamera" xml:space="preserve">
+    <value>Nova Câmera</value>
+  </data>
+  <data name="novaEtiqueta" xml:space="preserve">
+    <value>Nova Etiqueta</value>
+  </data>
+  <data name="addNovaEtiqueta" xml:space="preserve">
+    <value>Adicionar Nova Etiqueta</value>
+  </data>
+  <data name="recebeIpPorTrap" xml:space="preserve">
+    <value>Receber o Ip por Trap</value>
+  </data>
+  <data name="requisicao" xml:space="preserve">
+    <value>Requisição</value>
+  </data>
+  <data name="visualizarControladores" xml:space="preserve">
+    <value>Visualizar Controladores</value>
+  </data>
+  <data name="visualizarEnderecoMapa" xml:space="preserve">
+    <value>Visualizar endereço no Mapa</value>
+  </data>
+  <data name="alert_desabitarEqpCruzamento" xml:space="preserve">
+    <value>Para desabilitar o Controlador, é necessário desabilita-lo do Cruzamento</value>
+  </data>
+  <data name="alert_ExcluirEqpCruzamento" xml:space="preserve">
+    <value>Para excluir o Controlador, é necessário desabilita-lo do Cruzamento</value>
+  </data>
+  <data name="cadastro" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="desabilitado" xml:space="preserve">
+    <value>Desabilitado</value>
+  </data>
+  <data name="DnaNaoExiste" xml:space="preserve">
+    <value>Esse Dna não existe</value>
+  </data>
+  <data name="falhaDesabilitar" xml:space="preserve">
+    <value>Falha ao desabilitar</value>
+  </data>
+  <data name="falhaHabilitar" xml:space="preserve">
+    <value>Falha ao habilitar</value>
+  </data>
+  <data name="idDnaJaFoiVinculado" xml:space="preserve">
+    <value>Esse Id do Dna já foi vinculado</value>
+  </data>
+  <data name="jaExisteControladorVinculadoPonto" xml:space="preserve">
+    <value>Há um controlador vinculado a esse ponto</value>
+  </data>
+  <data name="naoEncontrado" xml:space="preserve">
+    <value>Não Encontrado</value>
+  </data>
+  <data name="idLocal" xml:space="preserve">
+    <value>Id do Local</value>
+  </data>
+  <data name="operadora" xml:space="preserve">
+    <value>Operadora</value>
+  </data>
+  <data name="selecionar" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="serialConfigNoMesmoIP" xml:space="preserve">
+    <value>A serial configurada já está vinculada ao mesmo IP</value>
+  </data>
+  <data name="serialExistente" xml:space="preserve">
+    <value>Esse Serial já existe</value>
+  </data>
+  <data name="visualizar" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="cadastroCorredor" xml:space="preserve">
+    <value>Cadastro de Corredor</value>
+  </data>
+  <data name="corredorExisteMesmoNome" xml:space="preserve">
+    <value>Já existe um corredor com esse nome</value>
+  </data>
+  <data name="excluirAneisVinculados" xml:space="preserve">
+    <value>Excluir todos anéis vinculados</value>
+  </data>
+  <data name="grupoJaEstaSendoUsadoNoCorredor" xml:space="preserve">
+    <value>já está sendo usado em outro corredor</value>
+  </data>
+  <data name="informeNomeCorredor" xml:space="preserve">
+    <value>Informe o Nome do Corredor</value>
+  </data>
+  <data name="informeTempoPercurso" xml:space="preserve">
+    <value>Informe o tempo de percurso</value>
+  </data>
+  <data name="selecioneAnel" xml:space="preserve">
+    <value>Selecione o anel</value>
+  </data>
+  <data name="selecioneGrupo" xml:space="preserve">
+    <value>Selecione o grupo</value>
+  </data>
+  <data name="sistemaIluminacao" xml:space="preserve">
+    <value>Sistema de Iluminação</value>
+  </data>
+  <data name="selecioneGrupoFocalDesejaUtilizar" xml:space="preserve">
+    <value>Selecione o Grupo Focal que deseja utilizar</value>
+  </data>
+  <data name="tempoEntreCruzamentos" xml:space="preserve">
+    <value>Tempo entre cruzamentos</value>
+  </data>
+  <data name="cadastroCruzamento" xml:space="preserve">
+    <value>Cadastro de Cruzamento</value>
+  </data>
+  <data name="dnaNPodeSerExcluido" xml:space="preserve">
+    <value>Esse Ponto não pode ser excluído</value>
+  </data>
+  <data name="grupoSemaforicoSelecionado" xml:space="preserve">
+    <value>Grupo Semáforico Selecionado</value>
+  </data>
+  <data name="listaLocais" xml:space="preserve">
+    <value>Lista de Locais</value>
+  </data>
+  <data name="locaisGruposSemaforicos" xml:space="preserve">
+    <value>Locais Grupos Semáforicos</value>
+  </data>
+  <data name="localSelecionado" xml:space="preserve">
+    <value>Local Selecionado</value>
+  </data>
+  <data name="local" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="marcador" xml:space="preserve">
+    <value>Marcador</value>
+  </data>
+  <data name="naoHaGrupoVinculadoDna" xml:space="preserve">
+    <value>Não há Grupo vinculado a esse local</value>
+  </data>
+  <data name="vincular" xml:space="preserve">
+    <value>Vincular</value>
+  </data>
+  <data name="areaSelecionada" xml:space="preserve">
+    <value>Área Selecionada</value>
+  </data>
+  <data name="cancelarVinculosRota" xml:space="preserve">
+    <value>Cancelar vinculos rota</value>
+  </data>
+  <data name="listaAreas" xml:space="preserve">
+    <value>Lista de Áreas</value>
+  </data>
+  <data name="nomeRota" xml:space="preserve">
+    <value>Nome da rota</value>
+  </data>
+  <data name="recarregarRota" xml:space="preserve">
+    <value>Recarregar Rota</value>
+  </data>
+  <data name="rota" xml:space="preserve">
+    <value>Rota</value>
+  </data>
+  <data name="rotaGrupoSemaforico" xml:space="preserve">
+    <value>Rotas Grupos Semáforicos</value>
+  </data>
+  <data name="salvarTrajetoVincularGrupo" xml:space="preserve">
+    <value>Para vincular os grupos semafóricos é necessário salvar o trajeto</value>
+  </data>
+  <data name="vincularGruposRota" xml:space="preserve">
+    <value>Vincular Grupos a Rota</value>
+  </data>
+  <data name="visualizarGruposVinculados" xml:space="preserve">
+    <value>Visualizar Grupos Vinculados</value>
+  </data>
+  <data name="alfanumericos" xml:space="preserve">
+    <value>alfanuméricos</value>
+  </data>
+  <data name="numSerie" xml:space="preserve">
+    <value>Número de Série</value>
+  </data>
+  <data name="numLinha" xml:space="preserve">
+    <value>Número da Linha</value>
+  </data>
+  <data name="arquivoNaoPermitido" xml:space="preserve">
+    <value>Arquivo não permitido</value>
+  </data>
+  <data name="cadastroPrefeitura" xml:space="preserve">
+    <value>Cadastro de Prefeitura</value>
+  </data>
+  <data name="caracteres" xml:space="preserve">
+    <value>Caracteres</value>
+  </data>
+  <data name="digiteSenhaNovamente" xml:space="preserve">
+    <value>Digite a senha novamente</value>
+  </data>
+  <data name="emailExistente" xml:space="preserve">
+    <value>Já existe um cadastro para este Email</value>
+  </data>
+  <data name="emailInvalido" xml:space="preserve">
+    <value>Email inválido</value>
+  </data>
+  <data name="nomeInvalido" xml:space="preserve">
+    <value>Nome inválido</value>
+  </data>
+  <data name="perguntaSecreta" xml:space="preserve">
+    <value>Pergunta secreta</value>
+  </data>
+  <data name="questaoInvalida" xml:space="preserve">
+    <value>Questão inválida</value>
+  </data>
+  <data name="responsavel" xml:space="preserve">
+    <value>Responsável</value>
+  </data>
+  <data name="resposta" xml:space="preserve">
+    <value>Resposta</value>
+  </data>
+  <data name="respostaInvalida" xml:space="preserve">
+    <value>Resposta inválida</value>
+  </data>
+  <data name="selecioneSubAreaConfigRota" xml:space="preserve">
+    <value>Selecione uma subárea na lista abaixo para configurar a rota</value>
+  </data>
+  <data name="senhaInvalida" xml:space="preserve">
+    <value>Senha inválida</value>
+  </data>
+  <data name="senhasNaoCorrenspondem" xml:space="preserve">
+    <value>As senhas não coinciden</value>
+  </data>
+  <data name="telefone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="usaSemaforoSicapp" xml:space="preserve">
+    <value>Usa Semáforo Sicapp</value>
+  </data>
+  <data name="usuarioRejeitado" xml:space="preserve">
+    <value>Usuário Rejeitado</value>
+  </data>
+  <data name="ano" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="anoExistente" xml:space="preserve">
+    <value>Esse ano já está cadastrado</value>
+  </data>
+  <data name="dataInvalida" xml:space="preserve">
+    <value>Data inválida</value>
+  </data>
+  <data name="enviadoSucesso" xml:space="preserve">
+    <value>Enviado com sucesso</value>
+  </data>
+  <data name="enviarTodosControladores" xml:space="preserve">
+    <value>Enviar para todos os Controladores</value>
+  </data>
+  <data name="gerar" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="apagaLogsFalhaRestabelecimento" xml:space="preserve">
+    <value>Apagar Logs de Falha de Restabelecimento</value>
+  </data>
+  <data name="apagaLogsOperacao" xml:space="preserve">
+    <value>Apagar Logs Operação</value>
+  </data>
+  <data name="ativo" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="baixar" xml:space="preserve">
+    <value>Baixar</value>
+  </data>
+  <data name="chave" xml:space="preserve">
+    <value>Chave</value>
+  </data>
+  <data name="cliqueNoLocalParaSalvar" xml:space="preserve">
+    <value>Após efetuar a pesquisa clique no local desejado para salvar</value>
+  </data>
+  <data name="comentario" xml:space="preserve">
+    <value>Comentário</value>
+  </data>
+  <data name="criar" xml:space="preserve">
+    <value>Criar</value>
+  </data>
+  <data name="descricao" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="digiteUsuarioSenha" xml:space="preserve">
+    <value>Digite seu usuário e sua senha</value>
+  </data>
+  <data name="entrar" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="grupoFocal" xml:space="preserve">
+    <value>Grupo Focal</value>
+  </data>
+  <data name="enviaProgramacaoEqp" xml:space="preserve">
+    <value>Enviar Programação para o Controlador</value>
+  </data>
+  <data name="erro" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="erroLogin" xml:space="preserve">
+    <value>Sua tentativa de login não foi bem sucedida. Por favor, tente novamente.</value>
+  </data>
+  <data name="funcionalidades" xml:space="preserve">
+    <value>Regra de acesso</value>
+  </data>
+  <data name="acessorios" xml:space="preserve">
+    <value>Acessórios</value>
+  </data>
+  <data name="informeVersao" xml:space="preserve">
+    <value>Informe uma versão</value>
+  </data>
+  <data name="inicializacaoMapaNessaArea" xml:space="preserve">
+    <value>Deseja que o mapa seja inicializado nessa área</value>
+  </data>
+  <data name="lembrar" xml:space="preserve">
+    <value>Lembrar</value>
+  </data>
+  <data name="manipula" xml:space="preserve">
+    <value>Gestão</value>
+  </data>
+  <data name="milisegundos" xml:space="preserve">
+    <value>Milissegundos</value>
+  </data>
+  <data name="municipio" xml:space="preserve">
+    <value>Município</value>
+  </data>
+  <data name="novaLicenca" xml:space="preserve">
+    <value>Nova Licença</value>
+  </data>
+  <data name="novaSenha" xml:space="preserve">
+    <value>Nova senha</value>
+  </data>
+  <data name="permissao" xml:space="preserve">
+    <value>Permissão</value>
+  </data>
+  <data name="redigiteNovaSenha" xml:space="preserve">
+    <value>Redigite a nova senha</value>
+  </data>
+  <data name="regraAcesso" xml:space="preserve">
+    <value>Regra de acesso</value>
+  </data>
+  <data name="tempo" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="tempoAtualizacao" xml:space="preserve">
+    <value>Tempo atualização</value>
+  </data>
+  <data name="ultimoAcesso" xml:space="preserve">
+    <value>Último acesso</value>
+  </data>
+  <data name="atrasoCiclo" xml:space="preserve">
+    <value>Atraso ciclo</value>
+  </data>
+  <data name="cicloMin" xml:space="preserve">
+    <value>Ciclo Min.</value>
+  </data>
+  <data name="cicloMax" xml:space="preserve">
+    <value>Ciclo Max.</value>
+  </data>
+  <data name="permitirCicloDuplo" xml:space="preserve">
+    <value>Permitir Ciclo Duplo</value>
+  </data>
+  <data name="estagioAtual" xml:space="preserve">
+    <value>Estágio Atual</value>
+  </data>
+  <data name="funcao" xml:space="preserve">
+    <value>Função</value>
+  </data>
+  <data name="imposicaoAndamento" xml:space="preserve">
+    <value>Imposição em andamento</value>
+  </data>
+  <data name="mensal" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="monitoramentoTempoReal" xml:space="preserve">
+    <value>Monitoramento Tempo Real</value>
+  </data>
+  <data name="obterDados" xml:space="preserve">
+    <value>Obter Dados</value>
+  </data>
+  <data name="operacao" xml:space="preserve">
+    <value>Operação</value>
+  </data>
+  <data name="periodo" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="reiniciar" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="reinicioAnel" xml:space="preserve">
+    <value>Reinicio anel</value>
+  </data>
+  <data name="relogio" xml:space="preserve">
+    <value>Relógio</value>
+  </data>
+  <data name="restabelecimento" xml:space="preserve">
+    <value>Restabelecimento</value>
+  </data>
+  <data name="solicitado" xml:space="preserve">
+    <value>solicitado</value>
+  </data>
+  <data name="tempoCiclo" xml:space="preserve">
+    <value>Tempo ciclo</value>
+  </data>
+  <data name="tempoEstagio" xml:space="preserve">
+    <value>Tempo estágio</value>
+  </data>
+  <data name="tempoNoCiclo" xml:space="preserve">
+    <value>Tempo no ciclo</value>
+  </data>
+  <data name="tempoNoEstagio" xml:space="preserve">
+    <value>Tempo no estágio</value>
+  </data>
+  <data name="cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="cadastroCliente" xml:space="preserve">
+    <value>Cadastro de Cliente</value>
+  </data>
+  <data name="verPlanos" xml:space="preserve">
+    <value>Ver Planos</value>
+  </data>
+  <data name="feriado" xml:space="preserve">
+    <value>Feriado</value>
+  </data>
+  <data name="dispositivos" xml:space="preserve">
+    <value>Dispositivos</value>
+  </data>
+  <data name="desativar" xml:space="preserve">
+    <value>Desativar</value>
+  </data>
+  <data name="inativo" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="pedestre" xml:space="preserve">
+    <value>Pedestre</value>
+  </data>
+  <data name="veicular" xml:space="preserve">
+    <value>Veicular</value>
+  </data>
+  <data name="enviarAgenda" xml:space="preserve">
+    <value>Enviar Agenda</value>
+  </data>
+  <data name="enviarProgramacao" xml:space="preserve">
+    <value>Enviar Programação</value>
+  </data>
+  <data name="enviarHorarioVerao" xml:space="preserve">
+    <value>Enviar Horário de Verão</value>
+  </data>
+  <data name="enviarImagem" xml:space="preserve">
+    <value>Enviar imagem</value>
+  </data>
+  <data name="imagens" xml:space="preserve">
+    <value>Imagens</value>
+  </data>
+  <data name="nenhumaTarefa" xml:space="preserve">
+    <value>Nenhuma tarefa</value>
+  </data>
+  <data name="permissaoCadCentral" xml:space="preserve">
+    <value>Permissão de acesso aos cadastros da Central</value>
+  </data>
+  <data name="permissaoCadHorarioVerao" xml:space="preserve">
+    <value>Permissão de acesso para o cadastro de horário de verão</value>
+  </data>
+  <data name="permissaoCadPrefeitura" xml:space="preserve">
+    <value>Permissão de acesso para o cadastro de cliente</value>
+  </data>
+  <data name="permissaoCentralMapa" xml:space="preserve">
+    <value>Permissão de acesso para visualização da Central em modo mapa</value>
+  </data>
+  <data name="permissaoConfigProgramador" xml:space="preserve">
+    <value>Permissão de acesso para a configuração de usuários e versões do Programador Semaforico</value>
+  </data>
+  <data name="permissaoConfigUser" xml:space="preserve">
+    <value>Permissão de acesso as configurações do usuário</value>
+  </data>
+  <data name="alarmes" xml:space="preserve">
+    <value>Alarmes</value>
+  </data>
+  <data name="lacosEmFalha" xml:space="preserve">
+    <value>Laços em Falha</value>
+  </data>
+  <data name="indiceCorredor" xml:space="preserve">
+    <value>Indice no Corredor</value>
+  </data>
+  <data name="informeIndiceCorredor" xml:space="preserve">
+    <value>Informe o indice no corredor</value>
+  </data>
+  <data name="trajeto" xml:space="preserve">
+    <value>Trajeto</value>
+  </data>
+  <data name="EqpJaVinculadoArea" xml:space="preserve">
+    <value>Este controlador já está vinculado em uma Subárea</value>
+  </data>
+  <data name="falhaSolucionada" xml:space="preserve">
+    <value>Falha Solucionada</value>
+  </data>
+  <data name="falhaSolucionadaComSucesso" xml:space="preserve">
+    <value>Falha solucionada com sucesso!</value>
+  </data>
+  <data name="relatorios" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="salvarAlteracoes" xml:space="preserve">
+    <value>Salvar Alterações</value>
+  </data>
+  <data name="portaAberta" xml:space="preserve">
+    <value>Porta Aberta</value>
+  </data>
+  <data name="avisosFalha" xml:space="preserve">
+    <value>Avisos de Falhas</value>
+  </data>
+  <data name="falhaDesabilitarEqp" xml:space="preserve">
+    <value>Falha ao Desabilitar Equipamento</value>
+  </data>
+  <data name="falhaHabilitarEqp" xml:space="preserve">
+    <value>Falha ao Habilitar Equipamento</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="recebido" xml:space="preserve">
+    <value>Recebido</value>
+  </data>
+  <data name="selecioneControlador" xml:space="preserve">
+    <value>Selecione um Controlador</value>
+  </data>
+  <data name="usuario" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="com" xml:space="preserve">
+    <value>com</value>
+  </data>
+  <data name="deseja" xml:space="preserve">
+    <value>Deseja</value>
+  </data>
+  <data name="inicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="autonomia" xml:space="preserve">
+    <value>Autonomia</value>
+  </data>
+  <data name="potencia" xml:space="preserve">
+    <value>Potência</value>
+  </data>
+  <data name="confirmarNovaSenha" xml:space="preserve">
+    <value>Confirmar nova senha</value>
+  </data>
+  <data name="atualizacaoAutomatica" xml:space="preserve">
+    <value>Atualização Automática</value>
+  </data>
+  <data name="mes" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="listaClientes" xml:space="preserve">
+    <value>Lista de Clientes</value>
+  </data>
+  <data name="loginUsuarioResponsavel" xml:space="preserve">
+    <value>Login do Usuário Responsável</value>
+  </data>
+  <data name="logoEmpresa" xml:space="preserve">
+    <value>Logo da Empresa</value>
+  </data>
+  <data name="portaReset" xml:space="preserve">
+    <value>Porta Reset</value>
+  </data>
+  <data name="site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="novaAgenda" xml:space="preserve">
+    <value>Nova agenda</value>
+  </data>
+  <data name="controladoresScoot" xml:space="preserve">
+    <value>Controladores Scoot</value>
+  </data>
+  <data name="agendaScoot" xml:space="preserve">
+    <value>Agenda Scoot</value>
+  </data>
+  <data name="scoot" xml:space="preserve">
+    <value>Scoot</value>
+  </data>
+  <data name="agendaScootSeraExcluida" xml:space="preserve">
+    <value>Esta agenda será excluída permanentemente!</value>
+  </data>
+  <data name="produtoExcluido" xml:space="preserve">
+    <value>Este produto será excluído permanentemente.</value>
+  </data>
+  <data name="planoAgendaSeraExcluida" xml:space="preserve">
+    <value>Este plano será excluído permanentemente!</value>
+  </data>
+  <data name="controladorScn" xml:space="preserve">
+    <value>Controlador (scn)</value>
+  </data>
+  <data name="ipControlador" xml:space="preserve">
+    <value>IP do Controlador</value>
+  </data>
+  <data name="qtdCaractereIdentControlador" xml:space="preserve">
+    <value>Qtd de Caracteres Identificação do Controlador</value>
+  </data>
+  <data name="scndoanel" xml:space="preserve">
+    <value>SCN DO ANEL</value>
+  </data>
+  <data name="confirmarExclusaoTipoAlert" xml:space="preserve">
+    <value>Realmente deseja excluir?</value>
+  </data>
+  <data name="salvarTipoAlert" xml:space="preserve">
+    <value>Realmente deseja salvar?</value>
+  </data>
+  <data name="emBranco" xml:space="preserve">
+    <value>em branco.</value>
+  </data>
+  <data name="controladorCadastrado" xml:space="preserve">
+    <value>Este controlador já está cadastrado</value>
+  </data>
+  <data name="controladorProgramacoesExcluidas" xml:space="preserve">
+    <value>Controlador e programações excluídas com sucesso!</value>
+  </data>
+  <data name="planoExcluidoComSucesso" xml:space="preserve">
+    <value>Plano excluído com sucesso!</value>
+  </data>
+  <data name="estagioPlanoExcluidos" xml:space="preserve">
+    <value>Estágio excluído com sucesso!</value>
+  </data>
+  <data name="planoSalvoComSucesso" xml:space="preserve">
+    <value>Plano salvo com sucesso!</value>
+  </data>
+  <data name="controladorProgramacoesSeraoExcluidas" xml:space="preserve">
+    <value>Este controlador e todas as programações serão excluídas permanentemente</value>
+  </data>
+  <data name="confirmacaoSalvarSemPatrimonio" xml:space="preserve">
+    <value>Realmente deseja salvar sem o número de patrimônio?</value>
+  </data>
+  <data name="esseDetectorSeraExcluido" xml:space="preserve">
+    <value>Este detector será excluído permanentemente!</value>
+  </data>
+  <data name="planoProgramacoesSeraoExcluidos" xml:space="preserve">
+    <value>Este plano e toda sua programação será excluída permanentemente</value>
+  </data>
+  <data name="estagioExcluidoPlano" xml:space="preserve">
+    <value>Este estágio será excluído do plano permanentemente!</value>
+  </data>
+  <data name="erroTipoAlert" xml:space="preserve">
+    <value>ERRO!</value>
+  </data>
+  <data name="naoPossivelSalvar" xml:space="preserve">
+    <value>Não é possível salvar</value>
+  </data>
+  <data name="excluidoTipoAlert" xml:space="preserve">
+    <value>Excluído!</value>
+  </data>
+  <data name="infoTipoAlert" xml:space="preserve">
+    <value>ATENÇÃO!</value>
+  </data>
+  <data name="quantidade" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="insiraControlador" xml:space="preserve">
+    <value>Insira um controlador</value>
+  </data>
+  <data name="naoExisteControladorCadastrado" xml:space="preserve">
+    <value>Não existe controlador cadastrado.</value>
+  </data>
+  <data name="minMaxEntreverdePermitido" xml:space="preserve">
+    <value>O mínimo de entreverdes é 3 e o máximo é 39!</value>
+  </data>
+  <data name="insiraEndereco" xml:space="preserve">
+    <value>Insira um endereço</value>
+  </data>
+  <data name="insiraIpControlador" xml:space="preserve">
+    <value>Insira o IP do controlador</value>
+  </data>
+  <data name="insiraTempoEnvioEstagio" xml:space="preserve">
+    <value>O tempo para o envio do estágio deve ser entre 2 e 6.</value>
+  </data>
+  <data name="validaTmpeInformado" xml:space="preserve">
+    <value>A quantidade máxima de estágios é: </value>
+  </data>
+  <data name="entreverdesEmBranco" xml:space="preserve">
+    <value>Não é possível salvar em branco!</value>
+  </data>
+  <data name="ipCadastrado" xml:space="preserve">
+    <value>Este IP já está cadastrado</value>
+  </data>
+  <data name="estagioEmUso" xml:space="preserve">
+    <value>Este estágio já esta sendo usado em um detector!</value>
+  </data>
+  <data name="controladorNaoSelecionado" xml:space="preserve">
+    <value>Selecione um controlador!</value>
+  </data>
+  <data name="preenchaCamposEmBranco" xml:space="preserve">
+    <value>Preencha os campos em branco.</value>
+  </data>
+  <data name="salvoTipoAlert" xml:space="preserve">
+    <value>SALVO!</value>
+  </data>
+  <data name="simExcluir" xml:space="preserve">
+    <value>Sim, excluir!</value>
+  </data>
+  <data name="erroVerdeMaximoMenorVerdeSeguranca" xml:space="preserve">
+    <value>O verde maximo não pode ser menor que o verde de segurança!</value>
+  </data>
+  <data name="entreverdes" xml:space="preserve">
+    <value>Entreverdes</value>
+  </data>
+  <data name="estagio" xml:space="preserve">
+    <value>Estágio</value>
+  </data>
+  <data name="informe" xml:space="preserve">
+    <value>Informe</value>
+  </data>
+  <data name="qtdEstagios" xml:space="preserve">
+    <value>Qtd de Estágios</value>
+  </data>
+  <data name="desativarTMPE" xml:space="preserve">
+    <value>Desativar TMPE</value>
+  </data>
+  <data name="tmpe" xml:space="preserve">
+    <value>TMPE</value>
+  </data>
+  <data name="verdeMaximo" xml:space="preserve">
+    <value>Verde Maximo</value>
+  </data>
+  <data name="verdeSeguranca" xml:space="preserve">
+    <value>Verde de Segurança</value>
+  </data>
+  <data name="intersecao" xml:space="preserve">
+    <value>Interseção</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="alarme" xml:space="preserve">
+    <value>Alarme</value>
+  </data>
+  <data name="listaPlanos" xml:space="preserve">
+    <value>Lista de Planos</value>
+  </data>
+  <data name="estagios" xml:space="preserve">
+    <value>Estágios</value>
+  </data>
+  <data name="listaEstagios" xml:space="preserve">
+    <value>Lista de Estágios</value>
+  </data>
+  <data name="entreverdesZero" xml:space="preserve">
+    <value>O Entreverdes não pode ser 0</value>
+  </data>
+  <data name="JaExtisteEsseEstagioNoPlano" xml:space="preserve">
+    <value>Esse estágio já está cadastrado no plano!</value>
+  </data>
+  <data name="intersecoes" xml:space="preserve">
+    <value>Interseções</value>
+  </data>
+  <data name="jaExistePlanoNesseHorario" xml:space="preserve">
+    <value>Já existe um plano nesse horário!</value>
+  </data>
+  <data name="Materiais" xml:space="preserve">
+    <value>Materiais</value>
+  </data>
+  <data name="preenchaHorarioCorretamente" xml:space="preserve">
+    <value>Preencha o horário corretamente!</value>
+  </data>
+  <data name="capFaseInstalada" xml:space="preserve">
+    <value>Capacidade de Fases Instaladas</value>
+  </data>
+  <data name="capFaseSuportada" xml:space="preserve">
+    <value>Capacidade de Fases Suportadas</value>
+  </data>
+  <data name="dataGarantia" xml:space="preserve">
+    <value>Data de Garantia</value>
+  </data>
+  <data name="dataInstalacao" xml:space="preserve">
+    <value>Data da Instalação</value>
+  </data>
+  <data name="estadoOperacional" xml:space="preserve">
+    <value>Estado Operacional</value>
+  </data>
+  <data name="fabricante" xml:space="preserve">
+    <value>Fabricante</value>
+  </data>
+  <data name="fixacao" xml:space="preserve">
+    <value>Fixação</value>
+  </data>
+  <data name="nomeProduto" xml:space="preserve">
+    <value>Nome do Produto</value>
+  </data>
+  <data name="produto" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="numPatrimonio" xml:space="preserve">
+    <value>Número do Patrimônio</value>
+  </data>
+  <data name="patrimonio" xml:space="preserve">
+    <value>Patrimônio</value>
+  </data>
+  <data name="numSerie" xml:space="preserve">
+    <value>Número de Série</value>
+  </data>
+  <data name="tensaoEntrada" xml:space="preserve">
+    <value>Tensão de Entrada</value>
+  </data>
+  <data name="tensaoInstalada" xml:space="preserve">
+    <value>Tensão Instalada</value>
+  </data>
+  <data name="tensaoSaida" xml:space="preserve">
+    <value>Tensão de saída</value>
+  </data>
+  <data name="novaPlaca" xml:space="preserve">
+    <value>Nova Placa</value>
+  </data>
+  <data name="novoGprs" xml:space="preserve">
+    <value>Novo GPRS</value>
+  </data>
+  <data name="addGprs" xml:space="preserve">
+    <value>Adicionar GPRS</value>
+  </data>
+  <data name="addImagem" xml:space="preserve">
+    <value>Adicionar Imagem</value>
+  </data>
+  <data name="addGrupoFocal" xml:space="preserve">
+    <value>Adicionar Grupo Focal</value>
+  </data>
+  <data name="addSistemaIluminacao" xml:space="preserve">
+    <value>Adicionar Sistema de Iluminação</value>
+  </data>
+  <data name="placa" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="projetos" xml:space="preserve">
+    <value>Projetos</value>
+  </data>
+  <data name="manutencao" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="selecioneGprsParaUtilizar" xml:space="preserve">
+    <value>Selecione o GPRS que deseja utilizar</value>
+  </data>
+  <data name="selecioneSistemaIluminacaoParaUtilizar" xml:space="preserve">
+    <value>Selecione o Sistema de Ilumin que deseja utilizar</value>
+  </data>
+  <data name="almoxarifado" xml:space="preserve">
+    <value>Almoxarifado</value>
+  </data>
+  <data name="porImplantacao" xml:space="preserve">
+    <value>Por Implantação</value>
+  </data>
+  <data name="porMovimentacao" xml:space="preserve">
+    <value>Por Movimentação</value>
+  </data>
+  <data name="placasControlador" xml:space="preserve">
+    <value>Placas do Controlador</value>
+  </data>
+  <data name="insiraTempoEnvioEstagio" xml:space="preserve">
+    <value>O tempo para o envio do estágio deve ser entre 2 e 6.</value>
+  </data>
+  <data name="tempoAntesEnvioEstagio" xml:space="preserve">
+    <value>Tempo para envio do estágio</value>
+  </data>
+  <data name="gprsControlador" xml:space="preserve">
+    <value>GPRS do Controlador</value>
+  </data>
+  <data name="movimentacaoProdutos" xml:space="preserve">
+    <value>Movimentação de Produtos</value>
+  </data>
+</root>

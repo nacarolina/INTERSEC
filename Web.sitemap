@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="#" title="Pagina Inicial">
+    <siteMapNode url="Default.aspx" title="Mapa"  description="Mapa" roles="central_mapa"/>
+    <siteMapNode url="~\ListaControladores\Default.aspx" title="Controladores"  description="Lista Controladores de Teste" roles="central_listaControlador"/>
+
+    <siteMapNode url="~\Register\Default.aspx" title="Cadastro" description="Cadastros" roles="central_cadastro">
+      <siteMapNode url="~\Admin\CityHall\Default.aspx" title="Prefeitura"  description="Prefeitura" roles="central_prefeitura"/>
+      <siteMapNode url="~\Register\Controller\Default.aspx" title="Equipamento" description="Cadastro de Equipamento" roles="central_cadastro"/>
+      <siteMapNode url="~\Register\Agenda\Default.aspx" title="Agenda" description="Cadastro de Agenda" roles="central_cadastro"/>
+      <siteMapNode url="~\Register\AgendaSubAreas\Default.aspx" title="Vincular Sub-Áreas na Agenda" description="Cadastro de Vinculo das Sub-Áreas na Agenda" roles="central_cadastro"/>
+      <siteMapNode url="~\Register\Dna\Default.aspx" title="Cruzamento" description="Cadastro de Ponto" roles="central_Cruzamento"/>
+      <siteMapNode url="~\Register\cadOperador\Default.aspx" title="Aviso de Falhas" description="Cadastro de Aviso de Falhas" roles="central_AvisoFalhas"/>
+      <siteMapNode url="~\Register\ProgSemaforica\Default.aspx" title="Programação semafórica" description="Programação semafórica amarelo piscante" roles="central_ProgSemaforica"/>
+    </siteMapNode>
+
+
+    <siteMapNode url="~\Admin\Users\Default2.aspx" title="Usuário" description="Usuário" roles="central_user">
+      <siteMapNode url="~\Admin\Users\Default.aspx" title="Cadastro de Usuário" description="Cadastro de Usuário" roles="central_user"/>
+      <siteMapNode url="~\Admin\Users\PermissoesUsers.aspx" title="Usuários Permissões" description="Ativar/Desativar Permissões de Usuários" roles="central_user"/>
+      <siteMapNode url="~\Admin\UserChangePass\Default.aspx" title="Editar Senha" description="Editar Senha de Usuário" roles="central_userChangePass"/>
+      <siteMapNode url="~\Admin\UsersRoles\GrupoRoles.aspx" title="Grupo de Permissões" description="Cadastro de Grupo de Permissões" roles="central_UserGrupoDeRoles"/>
+      <siteMapNode url="~\Admin\UsersRoles\UserInRoles.aspx" title="Usuários no Grupo de Permissões" description="Usuários no Grupo de Permissões" roles="central_UserGrupoDeRoles"/>
+    </siteMapNode>
+
+    <siteMapNode url="~\Admin\Map\MapConfig.aspx" title="Configurações" description="Configurações Mapa" roles="central_programadorconfig"/>
+
+    <siteMapNode url="~\Relatorios\Default.aspx" title="Relatórios" roles="central_relatorios">
+      <siteMapNode url="~\Relatorios\Logs\Default.aspx" title="Logs"  description="Relatorio de Logs da Central" roles="central_logs"/>
+      <!--<siteMapNode url="~\Relatorios\HistoricoFalhas\Default.aspx" title="Falhas e Sem Comunicação"  description="Relatorio de falhas e sem comunicação" roles="central_relatorio"/>
+      <siteMapNode url="~\Relatorios\HistoricoOrdemServico\Default.aspx" title="Ordem de Serviço"  description="Relatorio de ordem de serviço " roles="central_relatorio"/>
+      <siteMapNode url="~\Relatorios\HistoricoChipControlador\Default.aspx" title="Chip Controlador e Nobreak"  description="Relatorio de chip do controlador e nobreak " roles="central_relatorio"/>
+      <siteMapNode url="~\Relatorios\TensaoEntradaNobreak\Default.aspx" title="Tensão de Entrada Nobreak"  description="Relatorio de Tensão de Entrada Nobreak " roles="central_relatorio"/>
+
+    <siteMapNode url="~\ListaConsorcioDnaEmpresa\Default.aspx" title="DNA - Empresa" description="Lista de DNA por Consórcio - Empresas" roles="central_listaDnaEmpresas"/>-->
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

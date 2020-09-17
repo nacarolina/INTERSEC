@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abrirMonitoramento" xml:space="preserve">
+    <value>Open Monitoring</value>
+  </data>
+  <data name="abrirOrdemServico" xml:space="preserve">
+    <value>Open Service Order</value>
+  </data>
+  <data name="agenda" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="alterarUsuario" xml:space="preserve">
+    <value>Change User</value>
+  </data>
+  <data name="anel" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="apagado" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="areaSubArea" xml:space="preserve">
+    <value>Areas and Sub-areas</value>
+  </data>
+  <data name="atencao" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="avisos" xml:space="preserve">
+    <value>Notices</value>
+  </data>
+  <data name="avisosFalha" xml:space="preserve">
+    <value>Failure Notices</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="buscarControlador" xml:space="preserve">
+    <value>Search Controller</value>
+  </data>
+  <data name="cadastros" xml:space="preserve">
+    <value>Registers</value>
+  </data>
+  <data name="cadastroUsuario" xml:space="preserve">
+    <value>User registration</value>
+  </data>
+  <data name="cancelamento" xml:space="preserve">
+    <value>Cancellation</value>
+  </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="centralizacao" xml:space="preserve">
+    <value>Centralization</value>
+  </data>
+  <data name="centralizar" xml:space="preserve">
+    <value>Centralize</value>
+  </data>
+  <data name="complemento" xml:space="preserve">
+    <value>Complement</value>
+  </data>
+  <data name="configuracoes" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="confirmar" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="controlador" xml:space="preserve">
+    <value>Controller</value>
+  </data>
+  <data name="controladorAberto" xml:space="preserve">
+    <value>Open Controller</value>
+  </data>
+  <data name="corredor" xml:space="preserve">
+    <value>Corridor</value>
+  </data>
+  <data name="croqui" xml:space="preserve">
+    <value>Croqui</value>
+  </data>
+  <data name="cruzamento" xml:space="preserve">
+    <value>Intersection</value>
+  </data>
+  <data name="data" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="dataFinal" xml:space="preserve">
+    <value>Final Date</value>
+  </data>
+  <data name="dataInicial" xml:space="preserve">
+    <value>Initial Date</value>
+  </data>
+  <data name="desejaRestarEqp" xml:space="preserve">
+    <value>Do you want to reset this controller?</value>
+  </data>
+  <data name="desejaSetarSCEqp" xml:space="preserve">
+    <value>Do you really want to be left without communication for this controller?</value>
+  </data>
+  <data name="desligado" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="diagnosticoCampo" xml:space="preserve">
+    <value>Field diagnostics</value>
+  </data>
+  <data name="distancia" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="endereco" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="envio" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="estatisticaStatusControlador" xml:space="preserve">
+    <value>Statistics Controller Status</value>
+  </data>
+  <data name="falhaDeNobreak" xml:space="preserve">
+    <value>Nobreak Failure</value>
+  </data>
+  <data name="falhas" xml:space="preserve">
+    <value>Failures</value>
+  </data>
+  <data name="falhasNaComunicacao" xml:space="preserve">
+    <value>Communication Failures</value>
+  </data>
+  <data name="faltaEnergia" xml:space="preserve">
+    <value>Lack of energy</value>
+  </data>
+  <data name="fechar" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="filtrarPorEstatistica" xml:space="preserve">
+    <value>Filter by Statistics</value>
+  </data>
+  <data name="fusoHorario" xml:space="preserve">
+    <value>Time zone</value>
+  </data>
+  <data name="grupo" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="historicoComunicacao" xml:space="preserve">
+    <value>Communication history</value>
+  </data>
+  <data name="historicoFalhas" xml:space="preserve">
+    <value>Fault History</value>
+  </data>
+  <data name="horarioVerao" xml:space="preserve">
+    <value>Summer time</value>
+  </data>
+  <data name="identificacao" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="idPonto" xml:space="preserve">
+    <value>Point Id</value>
+  </data>
+  <data name="imagem" xml:space="preserve">
+    <value>image</value>
+  </data>
+  <data name="impor" xml:space="preserve">
+    <value>Impose</value>
+  </data>
+  <data name="imposicao" xml:space="preserve">
+    <value>Imposition</value>
+  </data>
+  <data name="imposicaoPlano" xml:space="preserve">
+    <value>Imposition of Plan</value>
+  </data>
+  <data name="infoUserInvalido" xml:space="preserve">
+    <value>Invalid user!</value>
+  </data>
+  <data name="infoUserPermissaoReset" xml:space="preserve">
+    <value>Contact a Gw Central user who has authorization to carry out the Reset!</value>
+  </data>
+  <data name="limpar" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="lista" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="listaAneisVinculados" xml:space="preserve">
+    <value>List of linked stream</value>
+  </data>
+  <data name="listaGrupoSemaforico" xml:space="preserve">
+    <value>List of Semaphore Groups</value>
+  </data>
+  <data name="listaRotas" xml:space="preserve">
+    <value>List of Routes</value>
+  </data>
+  <data name="logs" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="mapa" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="minutos" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="modoOperacional" xml:space="preserve">
+    <value>Operative Mode</value>
+  </data>
+  <data name="moduloDeComunicacao" xml:space="preserve">
+    <value>Communication Module</value>
+  </data>
+  <data name="msgErroEqpNaoCentralizado" xml:space="preserve">
+    <value>It is necessary that all linked controllers are centralized</value>
+  </data>
+  <data name="nao" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="naoHaRegistros" xml:space="preserve">
+    <value>No records!</value>
+  </data>
+  <data name="naoTemHistoricoComunicacaoEqp" xml:space="preserve">
+    <value>There is not a communication history for this controller!</value>
+  </data>
+  <data name="naoTemHistoricoFalhaEqp" xml:space="preserve">
+    <value>There is no history of failures for this controller!</value>
+  </data>
+  <data name="normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="opcoes" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="pendente" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="permissaoParaReset" xml:space="preserve">
+    <value>Authorization for the Reset</value>
+  </data>
+  <data name="pesquisar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="planoImposicaoNaoExiste" xml:space="preserve">
+    <value>The imposition request plan is not in the controllers of the subarea.</value>
+  </data>
+  <data name="planos" xml:space="preserve">
+    <value>Plans</value>
+  </data>
+  <data name="porta" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="prefeitura" xml:space="preserve">
+    <value>City hall</value>
+  </data>
+  <data name="programacao" xml:space="preserve">
+    <value>Programming</value>
+  </data>
+  <data name="programadorSemaforico" xml:space="preserve">
+    <value>Semaphoric Programmer</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="selecione" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="selecioneFalha" xml:space="preserve">
+    <value>Select the Fault!</value>
+  </data>
+  <data name="semaforo" xml:space="preserve">
+    <value>Traffic light</value>
+  </data>
+  <data name="semaforoAmareloIntermitente" xml:space="preserve">
+    <value>Traffic Light in Blinking Yellow</value>
+  </data>
+  <data name="semaforoApagado" xml:space="preserve">
+    <value>Traffic Light Off</value>
+  </data>
+  <data name="semaforoEstacionado" xml:space="preserve">
+    <value>Stoplight parked</value>
+  </data>
+  <data name="semComunicacao" xml:space="preserve">
+    <value>No communication</value>
+  </data>
+  <data name="senha" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="sim" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="sincronizacao" xml:space="preserve">
+    <value>Synchronization</value>
+  </data>
+  <data name="sincronizacoesPendentes" xml:space="preserve">
+    <value>Pending Synchronizations</value>
+  </data>
+  <data name="site_name" xml:space="preserve">
+    <value>Gw - Fixed time central</value>
+  </data>
+  <data name="solicitacao" xml:space="preserve">
+    <value>Solicitation</value>
+  </data>
+  <data name="solicitada" xml:space="preserve">
+    <value>Requested</value>
+  </data>
+  <data name="subArea" xml:space="preserve">
+    <value>Subarea</value>
+  </data>
+  <data name="subAreaAgenda" xml:space="preserve">
+    <value>Link Subareas in the schedule</value>
+  </data>
+  <data name="subtensao" xml:space="preserve">
+    <value>Undervoltage</value>
+  </data>
+  <data name="sucesso" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="tarefas" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="tarefasPendentes" xml:space="preserve">
+    <value>Pending tasks</value>
+  </data>
+  <data name="tempoPercurso" xml:space="preserve">
+    <value>Time travel</value>
+  </data>
+  <data name="tempoSemComunicar" xml:space="preserve">
+    <value>Time without communication</value>
+  </data>
+  <data name="tentativaConexao" xml:space="preserve">
+    <value>Attempt Connection</value>
+  </data>
+  <data name="tipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ultimaAtualizacao" xml:space="preserve">
+    <value>Last update</value>
+  </data>
+  <data name="ultimaAtualizacaoProgramacao" xml:space="preserve">
+    <value>Last programming update</value>
+  </data>
+  <data name="ultimaComunicacao" xml:space="preserve">
+    <value>Last communication</value>
+  </data>
+  <data name="usuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="usuariosPermissoes" xml:space="preserve">
+    <value>User Authorization</value>
+  </data>
+  <data name="verAgenda" xml:space="preserve">
+    <value>View Schedule</value>
+  </data>
+  <data name="versao" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="vinculoSubArea" xml:space="preserve">
+    <value>Subarea Links</value>
+  </data>
+  <data name="voltar" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="centralizado" xml:space="preserve">
+    <value>Centralized</value>
+  </data>
+  <data name="aberto" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="abrir" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="dadoNaoCadastrado" xml:space="preserve">
+    <value>Data not registered</value>
+  </data>
+  <data name="horarioBrasilia" xml:space="preserve">
+    <value>Brasilia time</value>
+  </data>
+  <data name="informeSenha" xml:space="preserve">
+    <value>Enter password</value>
+  </data>
+  <data name="informeUsuario" xml:space="preserve">
+    <value>Report an user</value>
+  </data>
+  <data name="semProgramacao" xml:space="preserve">
+    <value>Without programming</value>
+  </data>
+  <data name="AgendaExisteMesmoNome" xml:space="preserve">
+    <value>An schedule with this name already exists</value>
+  </data>
+  <data name="agendamento" xml:space="preserve">
+    <value>Scheduling</value>
+  </data>
+  <data name="agrupar" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="aguarde" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="alert_agendaTodoDia" xml:space="preserve">
+    <value>Schedule does not have every day of the week!</value>
+  </data>
+  <data name="alert_horaInicialIgualFinal" xml:space="preserve">
+    <value>The Start Time can not be equal to End Time!</value>
+  </data>
+  <data name="alert_vinculoGruposAreaMapa" xml:space="preserve">
+    <value>Semaphore groups should be on the map to be linked</value>
+  </data>
+  <data name="alteracoes" xml:space="preserve">
+    <value>Alterations</value>
+  </data>
+  <data name="alterar" xml:space="preserve">
+    <value>Alter</value>
+  </data>
+  <data name="amareloIntermitente" xml:space="preserve">
+    <value>Flashing Yellow</value>
+  </data>
+  <data name="area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="cadastrar" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="carregando" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="desenhar" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="detalhes" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="dias" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="domingo" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="editar" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="especial" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="excluido" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="excluir" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="existem" xml:space="preserve">
+    <value>Exist</value>
+  </data>
+  <data name="final" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="gruposVinculados" xml:space="preserve">
+    <value>Linked Groups</value>
+  </data>
+  <data name="hora" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="horarioAgendaExistente" xml:space="preserve">
+    <value>Schedule already exists with this time</value>
+  </data>
+  <data name="horarios" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="informacao" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="inicial" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="invalida" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="naoPossuiPlanoConfigurado" xml:space="preserve">
+    <value>Does not have a configured plan</value>
+  </data>
+  <data name="nome" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="novo" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="plano" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="planoConfigMesmoPeriodo" xml:space="preserve">
+    <value>plans configured in the special table in the same period</value>
+  </data>
+  <data name="planosConfigMesmoHorario" xml:space="preserve">
+    <value>plans set in the schedule at the same time</value>
+  </data>
+  <data name="quarta" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="quinta" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="sabado" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="salvar" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="segunda" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="selecioneAgenda" xml:space="preserve">
+    <value>Select the schedule</value>
+  </data>
+  <data name="selecioneArea" xml:space="preserve">
+    <value>Select the area</value>
+  </data>
+  <data name="selecioneDiaSemana" xml:space="preserve">
+    <value>Select the day of the week!</value>
+  </data>
+  <data name="selecioneSubArea" xml:space="preserve">
+    <value>Select the subarea</value>
+  </data>
+  <data name="semana" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="sexta" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="subAreaVinculadaAgenda" xml:space="preserve">
+    <value>Subarea is already linked in a calendar!</value>
+  </data>
+  <data name="tabela" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="terca" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="todos" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="todosOsDias" xml:space="preserve">
+    <value>Every day</value>
+  </data>
+  <data name="validada" xml:space="preserve">
+    <value>Validated</value>
+  </data>
+  <data name="validar" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="vincularGrupos" xml:space="preserve">
+    <value>Link Groups</value>
+  </data>
+  <data name="botaoDireitoParaOpcoes" xml:space="preserve">
+    <value>Right click for more options</value>
+  </data>
+  <data name="cadastroArea" xml:space="preserve">
+    <value>Areas Register</value>
+  </data>
+  <data name="campoObrigatorio" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="excluidoSucesso" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="imprimir" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="listaEqpVinculado" xml:space="preserve">
+    <value>List of Linked Controller</value>
+  </data>
+  <data name="naoFoiPossivelSalvarArea" xml:space="preserve">
+    <value>Failed to save area</value>
+  </data>
+  <data name="renomear" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="salvoComSucesso" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="vincularControlador" xml:space="preserve">
+    <value>Link Controller</value>
+  </data>
+  <data name="areaExistente" xml:space="preserve">
+    <value>An area with the same name already exists</value>
+  </data>
+  <data name="continuar" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="controladorDesvinculado" xml:space="preserve">
+    <value>Unlinked Controller</value>
+  </data>
+  <data name="controladorVinculado" xml:space="preserve">
+    <value>Linked Controller</value>
+  </data>
+  <data name="desejaExcluirArea" xml:space="preserve">
+    <value>Are you sure you want to delete the area?</value>
+  </data>
+  <data name="exclusaoPodePerderDados" xml:space="preserve">
+    <value>In the exclusion of the area you can lose data linked!</value>
+  </data>
+  <data name="naoHaEqpVinculadoNaSubArea" xml:space="preserve">
+    <value>There is no controller bound to this Subarea</value>
+  </data>
+  <data name="nomeExistente" xml:space="preserve">
+    <value>This name already exists</value>
+  </data>
+  <data name="preenchaNomeArea" xml:space="preserve">
+    <value>Fill in the name of the area</value>
+  </data>
+  <data name="preenchaNomeSubArea" xml:space="preserve">
+    <value>Fill in the name of the Subarea</value>
+  </data>
+  <data name="subareaExistente" xml:space="preserve">
+    <value>An subarea with the same name already exists</value>
+  </data>
+  <data name="abrirCameras" xml:space="preserve">
+    <value>Open Cameras</value>
+  </data>
+  <data name="adicionar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="anexar" xml:space="preserve">
+    <value>Attach</value>
+  </data>
+  <data name="arquivo" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="comunicacaoServico" xml:space="preserve">
+    <value>Communication by Service</value>
+  </data>
+  <data name="conjugados" xml:space="preserve">
+    <value>Conjugated</value>
+  </data>
+  <data name="consorcio" xml:space="preserve">
+    <value>Consortium</value>
+  </data>
+  <data name="disponibilidade" xml:space="preserve">
+    <value>Availability</value>
+  </data>
+  <data name="empresa" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="gruposSemaforicos" xml:space="preserve">
+    <value>Semaphore Groups</value>
+  </data>
+  <data name="habilitado" xml:space="preserve">
+    <value>Qualified</value>
+  </data>
+  <data name="habilitarCentral" xml:space="preserve">
+    <value>Enable Central</value>
+  </data>
+  <data name="informeDnaMestre" xml:space="preserve">
+    <value>Tell the Dna Master</value>
+  </data>
+  <data name="latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="longitude" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="mestre" xml:space="preserve">
+    <value>Master</value>
+  </data>
+  <data name="moduloComunicacao" xml:space="preserve">
+    <value>Communication Module</value>
+  </data>
+  <data name="novaCamera" xml:space="preserve">
+    <value>New Camera</value>
+  </data>
+  <data name="recebeIpPorTrap" xml:space="preserve">
+    <value>Receive the IP by TRAP</value>
+  </data>
+  <data name="requisicao" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="visualizarControladores" xml:space="preserve">
+    <value>View Controllers</value>
+  </data>
+  <data name="visualizarEnderecoMapa" xml:space="preserve">
+    <value>View address on Map</value>
+  </data>
+  <data name="alert_desabitarEqpCruzamento" xml:space="preserve">
+    <value>To disable the Controller, you must disable it from Crossing</value>
+  </data>
+  <data name="alert_ExcluirEqpCruzamento" xml:space="preserve">
+    <value>To delete the Controller, you must disable it from Crossing</value>
+  </data>
+  <data name="cadastro" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="desabilitado" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="DnaNaoExiste" xml:space="preserve">
+    <value>This Dna does not exist</value>
+  </data>
+  <data name="falhaDesabilitarEqp" xml:space="preserve">
+    <value>Failed to disable Controller</value>
+  </data>
+  <data name="falhaHabilitarEqp" xml:space="preserve">
+    <value>Failed to enable Controller</value>
+  </data>
+  <data name="idDnaJaFoiVinculado" xml:space="preserve">
+    <value>This Dna ID has already been linked</value>
+  </data>
+  <data name="jaExisteControladorVinculadoPonto" xml:space="preserve">
+    <value>There is a controller bound to this point</value>
+  </data>
+  <data name="naoEncontrado" xml:space="preserve">
+    <value>Not Found</value>
+  </data>
+  <data name="operadora" xml:space="preserve">
+    <value>Carrier</value>
+  </data>
+  <data name="selecionar" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="serialConfigNoMesmoIP" xml:space="preserve">
+    <value>The configured serial is already linked to the same IP</value>
+  </data>
+  <data name="serialExistente" xml:space="preserve">
+    <value>This Serial already exists</value>
+  </data>
+  <data name="visualizar" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="cadastroCorredor" xml:space="preserve">
+    <value>Corridor Registration</value>
+  </data>
+  <data name="corredorExisteMesmoNome" xml:space="preserve">
+    <value>A corridor with this name already exists</value>
+  </data>
+  <data name="excluirAneisVinculados" xml:space="preserve">
+    <value>Delete all linked Stream</value>
+  </data>
+  <data name="grupoJaEstaSendoUsadoNoCorredor" xml:space="preserve">
+    <value>already being used in another corridor</value>
+  </data>
+  <data name="informeTempoPercurso" xml:space="preserve">
+    <value>Enter driving time</value>
+  </data>
+  <data name="selecioneAnel" xml:space="preserve">
+    <value>Select stream</value>
+  </data>
+  <data name="selecioneGrupo" xml:space="preserve">
+    <value>Select group</value>
+  </data>
+  <data name="tempoEntreCruzamentos" xml:space="preserve">
+    <value>Time between crosses</value>
+  </data>
+  <data name="cadastroCruzamento" xml:space="preserve">
+    <value>Intersection Register</value>
+  </data>
+  <data name="dnaNPodeSerExcluido" xml:space="preserve">
+    <value>This Point can not be deleted</value>
+  </data>
+  <data name="grupoSemaforicoSelecionado" xml:space="preserve">
+    <value>Selected Semaphore Group</value>
+  </data>
+  <data name="listaLocais" xml:space="preserve">
+    <value>List of Locations</value>
+  </data>
+  <data name="locaisGruposSemaforicos" xml:space="preserve">
+    <value>Places Semaphore Groups</value>
+  </data>
+  <data name="localSelecionado" xml:space="preserve">
+    <value>Selected Location</value>
+  </data>
+  <data name="marcador" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="naoHaGrupoVinculadoDna" xml:space="preserve">
+    <value>There is no Group bound to this location</value>
+  </data>
+  <data name="vincular" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="areaSelecionada" xml:space="preserve">
+    <value>Selected Area</value>
+  </data>
+  <data name="cancelarVinculosRota" xml:space="preserve">
+    <value>Cancel route links</value>
+  </data>
+  <data name="listaAreas" xml:space="preserve">
+    <value>List of Areas</value>
+  </data>
+  <data name="nomeRota" xml:space="preserve">
+    <value>Name of the route</value>
+  </data>
+  <data name="recarregarRota" xml:space="preserve">
+    <value>Reload Route</value>
+  </data>
+  <data name="rota" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="rotaGrupoSemaforico" xml:space="preserve">
+    <value>Semaphoric Groups Routes</value>
+  </data>
+  <data name="salvarTrajetoVincularGrupo" xml:space="preserve">
+    <value>To link traffic signal groups it is necessary to save the route</value>
+  </data>
+  <data name="vincularGruposRota" xml:space="preserve">
+    <value>Link Groups to Route</value>
+  </data>
+  <data name="visualizarGruposVinculados" xml:space="preserve">
+    <value>View Linked Groups</value>
+  </data>
+  <data name="alfanumericos" xml:space="preserve">
+    <value>alphanumeric</value>
+  </data>
+  <data name="arquivoNaoPermitido" xml:space="preserve">
+    <value>File not allowed</value>
+  </data>
+  <data name="cadastroPrefeitura" xml:space="preserve">
+    <value>City Hall Registration</value>
+  </data>
+  <data name="caracteres" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="digiteSenhaNovamente" xml:space="preserve">
+    <value>Type the password again</value>
+  </data>
+  <data name="emailExistente" xml:space="preserve">
+    <value>There is already a registration for this Email</value>
+  </data>
+  <data name="emailInvalido" xml:space="preserve">
+    <value>Invalid email</value>
+  </data>
+  <data name="nomeInvalido" xml:space="preserve">
+    <value>Invalid Name</value>
+  </data>
+  <data name="perguntaSecreta" xml:space="preserve">
+    <value>Secret question</value>
+  </data>
+  <data name="questaoInvalida" xml:space="preserve">
+    <value>Invalid question</value>
+  </data>
+  <data name="responsavel" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
+  <data name="resposta" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="respostaInvalida" xml:space="preserve">
+    <value>Invalid response</value>
+  </data>
+  <data name="selecioneSubAreaConfigRota" xml:space="preserve">
+    <value>Select a sub-area from the list below to configure the route</value>
+  </data>
+  <data name="senhaInvalida" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="senhasNaoCorrenspondem" xml:space="preserve">
+    <value>The passwords do not match</value>
+  </data>
+  <data name="telefone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="usaSemaforoSicapp" xml:space="preserve">
+    <value>Use Sicapp Semaphore</value>
+  </data>
+  <data name="usuarioRejeitado" xml:space="preserve">
+    <value>Rejected User</value>
+  </data>
+  <data name="ano" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="anoExistente" xml:space="preserve">
+    <value>This year is already registered</value>
+  </data>
+  <data name="dataInvalida" xml:space="preserve">
+    <value>Invalid Date</value>
+  </data>
+  <data name="enviadoSucesso" xml:space="preserve">
+    <value>Sent with success</value>
+  </data>
+  <data name="enviarTodosControladores" xml:space="preserve">
+    <value>Send to all Controllers</value>
+  </data>
+  <data name="gerar" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="apagaLogsFalhaRestabelecimento" xml:space="preserve">
+    <value>Erase Restore Failure Logs</value>
+  </data>
+  <data name="apagaLogsOperacao" xml:space="preserve">
+    <value>Delete Operation Logs</value>
+  </data>
+  <data name="ativo" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="baixar" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="chave" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="cliqueNoLocalParaSalvar" xml:space="preserve">
+    <value>After searching click on the desired location to save</value>
+  </data>
+  <data name="comentario" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="criar" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="descricao" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="digiteUsuarioSenha" xml:space="preserve">
+    <value>Enter your username and password</value>
+  </data>
+  <data name="entrar" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="enviaProgramacaoEqp" xml:space="preserve">
+    <value>Send Programming to the Controller</value>
+  </data>
+  <data name="erro" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="erroLogin" xml:space="preserve">
+    <value>Your login attempt was unsuccessful. Please try again.</value>
+  </data>
+  <data name="funcionalidades" xml:space="preserve">
+    <value>Functionalities</value>
+  </data>
+  <data name="informeVersao" xml:space="preserve">
+    <value>Report a version</value>
+  </data>
+  <data name="inicializacaoMapaNessaArea" xml:space="preserve">
+    <value>Do you want the map to be initialized in this area</value>
+  </data>
+  <data name="lembrar" xml:space="preserve">
+    <value>Remember</value>
+  </data>
+  <data name="manipula" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="milisegundos" xml:space="preserve">
+    <value>Milliseconds</value>
+  </data>
+  <data name="municipio" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="novaLicenca" xml:space="preserve">
+    <value>New License</value>
+  </data>
+  <data name="novaSenha" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="permissao" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="redigiteNovaSenha" xml:space="preserve">
+    <value>Retype New Password</value>
+  </data>
+  <data name="regraAcesso" xml:space="preserve">
+    <value>Access Rule</value>
+  </data>
+  <data name="tempo" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="tempoAtualizacao" xml:space="preserve">
+    <value>Update time</value>
+  </data>
+  <data name="ultimoAcesso" xml:space="preserve">
+    <value>Last acess</value>
+  </data>
+  <data name="atrasoCiclo" xml:space="preserve">
+    <value>Cycle delay</value>
+  </data>
+  <data name="estagioAtual" xml:space="preserve">
+    <value>Current Stage</value>
+  </data>
+  <data name="funcao" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="imposicaoAndamento" xml:space="preserve">
+    <value>Imposition in progress</value>
+  </data>
+  <data name="mensal" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="monitoramentoTempoReal" xml:space="preserve">
+    <value>Real-Time Monitoring</value>
+  </data>
+  <data name="obterDados" xml:space="preserve">
+    <value>Get Data</value>
+  </data>
+  <data name="operacao" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="periodo" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="reiniciar" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="reinicioAnel" xml:space="preserve">
+    <value>Stream reset</value>
+  </data>
+  <data name="relogio" xml:space="preserve">
+    <value>Clock</value>
+  </data>
+  <data name="restabelecimento" xml:space="preserve">
+    <value>Restoration</value>
+  </data>
+  <data name="solicitado" xml:space="preserve">
+    <value>requested</value>
+  </data>
+  <data name="tempoCiclo" xml:space="preserve">
+    <value>Cycle time</value>
+  </data>
+  <data name="tempoEstagio" xml:space="preserve">
+    <value>Stage time</value>
+  </data>
+  <data name="tempoNoCiclo" xml:space="preserve">
+    <value>Time in cycle</value>
+  </data>
+  <data name="tempoNoEstagio" xml:space="preserve">
+    <value>Time in stage</value>
+  </data>
+  <data name="cadastroCliente" xml:space="preserve">
+    <value>Client register</value>
+  </data>
+  <data name="cliente" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="verPlanos" xml:space="preserve">
+    <value>View Plans</value>
+  </data>
+  <data name="feriado" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="pedestre" xml:space="preserve">
+    <value>Pedestrian</value>
+  </data>
+  <data name="veicular" xml:space="preserve">
+    <value>Vehicular</value>
+  </data>
+  <data name="enviarAgenda" xml:space="preserve">
+    <value>Send Schedule</value>
+  </data>
+  <data name="enviarProgramacao" xml:space="preserve">
+    <value>Send Programming</value>
+  </data>
+  <data name="enviarHorarioVerao" xml:space="preserve">
+    <value>Send Summer time</value>
+  </data>
+  <data name="enviarImagem" xml:space="preserve">
+    <value>Send image</value>
+  </data>
+  <data name="nenhumaTarefa" xml:space="preserve">
+    <value>None task</value>
+  </data>
+  <data name="permissaoCadCentral" xml:space="preserve">
+    <value>Access permission to registrations Central</value>
+  </data>
+  <data name="permissaoCadHorarioVerao" xml:space="preserve">
+    <value>Access permission to register summer time</value>
+  </data>
+  <data name="permissaoCadPrefeitura" xml:space="preserve">
+    <value>Access permission to register client</value>
+  </data>
+  <data name="permissaoCentralMapa" xml:space="preserve">
+    <value>Access permission to view the Central in map mode</value>
+  </data>
+  <data name="permissaoConfigProgramador" xml:space="preserve">
+    <value>Access permission for configuration of users and versions of Programador Semaforico</value>
+  </data>
+  <data name="permissaoConfigUser" xml:space="preserve">
+    <value>Permission to access user settings</value>
+  </data>
+  <data name="recebido" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="deseja" xml:space="preserve">
+    <value>Do you want</value>
+  </data>
+  <data name="inicio" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="atualizacaoAutomatica" xml:space="preserve">
+    <value>Automatic Update</value>
+  </data>
+  <data name="intersecao" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="confirmarExclusaoTipoAlert" xml:space="preserve">
+    <value>Do you want to remove?</value>
+  </data>
+  <data name="controladorProgramacoesSeraoExcluidas" xml:space="preserve">
+    <value>This controller and all configuration will be removed</value>
+  </data>
+  <data name="simExcluir" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

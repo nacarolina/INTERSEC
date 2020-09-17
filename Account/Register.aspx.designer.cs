@@ -1,0 +1,33 @@
+﻿//------------------------------------------------------------------------------
+// <gerado automaticamente>
+//     Este código foi gerado por uma ferramenta.
+//
+//     As alterações ao arquivo poderão causar comportamento incorreto e serão perdidas se
+//     o código for recriado
+// </gerado automaticamente>
+//------------------------------------------------------------------------------
+
+namespace GwCentral.Account {
+    
+    
+    public partial class Register {
+        
+        /// <summary>
+        /// Controle RegisterUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CreateUserWizard RegisterUser;
+        
+        /// <summary>
+        /// Controle RegisterUserWizardStep.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CreateUserWizardStep RegisterUserWizardStep;
+    }
+}

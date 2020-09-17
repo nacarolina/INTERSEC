@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://cetaplica/smee/qrcode/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://cetaplica/smee/qrcode/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://cetaplica/smee/qrcode/">
+      <s:element name="listarLocais">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="chave" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarLocaisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listarLocaisResult" type="tns:ListaLocaisResultado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ListaLocaisResultado">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="tns:Resultado" />
+          <s:element minOccurs="0" maxOccurs="1" name="Locais" type="tns:ArrayOfLocalResumido" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Resultado">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Erro" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descricao" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLocalResumido">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="LocalResumido" nillable="true" type="tns:LocalResumido" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="LocalResumido">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdLocal" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descricao" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Distrito" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Area" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Departamento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CentralSemaforos" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Prioridade" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdEmpresa" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Link" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="listarLocal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="chave" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idLocal" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarLocalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listarLocalResult" type="tns:ListaLocaisResultado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaLocaisResultado" nillable="true" type="tns:ListaLocaisResultado" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="listarLocaisSoapIn">
+    <wsdl:part name="parameters" element="tns:listarLocais" />
+  </wsdl:message>
+  <wsdl:message name="listarLocaisSoapOut">
+    <wsdl:part name="parameters" element="tns:listarLocaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="listarLocalSoapIn">
+    <wsdl:part name="parameters" element="tns:listarLocal" />
+  </wsdl:message>
+  <wsdl:message name="listarLocalSoapOut">
+    <wsdl:part name="parameters" element="tns:listarLocalResponse" />
+  </wsdl:message>
+  <wsdl:message name="listarLocaisHttpGetIn">
+    <wsdl:part name="idEmpresa" type="s:string" />
+    <wsdl:part name="chave" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="listarLocaisHttpGetOut">
+    <wsdl:part name="Body" element="tns:ListaLocaisResultado" />
+  </wsdl:message>
+  <wsdl:message name="listarLocalHttpGetIn">
+    <wsdl:part name="idEmpresa" type="s:string" />
+    <wsdl:part name="chave" type="s:string" />
+    <wsdl:part name="idLocal" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="listarLocalHttpGetOut">
+    <wsdl:part name="Body" element="tns:ListaLocaisResultado" />
+  </wsdl:message>
+  <wsdl:message name="listarLocaisHttpPostIn">
+    <wsdl:part name="idEmpresa" type="s:string" />
+    <wsdl:part name="chave" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="listarLocaisHttpPostOut">
+    <wsdl:part name="Body" element="tns:ListaLocaisResultado" />
+  </wsdl:message>
+  <wsdl:message name="listarLocalHttpPostIn">
+    <wsdl:part name="idEmpresa" type="s:string" />
+    <wsdl:part name="chave" type="s:string" />
+    <wsdl:part name="idLocal" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="listarLocalHttpPostOut">
+    <wsdl:part name="Body" element="tns:ListaLocaisResultado" />
+  </wsdl:message>
+  <wsdl:portType name="ServicosQRCodeSoap">
+    <wsdl:operation name="listarLocais">
+      <wsdl:input message="tns:listarLocaisSoapIn" />
+      <wsdl:output message="tns:listarLocaisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <wsdl:input message="tns:listarLocalSoapIn" />
+      <wsdl:output message="tns:listarLocalSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServicosQRCodeHttpGet">
+    <wsdl:operation name="listarLocais">
+      <wsdl:input message="tns:listarLocaisHttpGetIn" />
+      <wsdl:output message="tns:listarLocaisHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <wsdl:input message="tns:listarLocalHttpGetIn" />
+      <wsdl:output message="tns:listarLocalHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServicosQRCodeHttpPost">
+    <wsdl:operation name="listarLocais">
+      <wsdl:input message="tns:listarLocaisHttpPostIn" />
+      <wsdl:output message="tns:listarLocaisHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <wsdl:input message="tns:listarLocalHttpPostIn" />
+      <wsdl:output message="tns:listarLocalHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicosQRCodeSoap" type="tns:ServicosQRCodeSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="listarLocais">
+      <soap:operation soapAction="http://cetaplica/smee/qrcode/listarLocais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <soap:operation soapAction="http://cetaplica/smee/qrcode/listarLocal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicosQRCodeSoap12" type="tns:ServicosQRCodeSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="listarLocais">
+      <soap12:operation soapAction="http://cetaplica/smee/qrcode/listarLocais" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <soap12:operation soapAction="http://cetaplica/smee/qrcode/listarLocal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicosQRCodeHttpGet" type="tns:ServicosQRCodeHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="listarLocais">
+      <http:operation location="/listarLocais" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <http:operation location="/listarLocal" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicosQRCodeHttpPost" type="tns:ServicosQRCodeHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="listarLocais">
+      <http:operation location="/listarLocais" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarLocal">
+      <http:operation location="/listarLocal" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicosQRCode">
+    <wsdl:port name="ServicosQRCodeSoap" binding="tns:ServicosQRCodeSoap">
+      <soap:address location="http://localhost:2124/smee/qrcode/ServicosQRCode.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicosQRCodeSoap12" binding="tns:ServicosQRCodeSoap12">
+      <soap12:address location="http://localhost:2124/smee/qrcode/ServicosQRCode.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicosQRCodeHttpGet" binding="tns:ServicosQRCodeHttpGet">
+      <http:address location="http://localhost:2124/smee/qrcode/ServicosQRCode.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicosQRCodeHttpPost" binding="tns:ServicosQRCodeHttpPost">
+      <http:address location="http://localhost:2124/smee/qrcode/ServicosQRCode.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
