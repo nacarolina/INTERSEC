@@ -42,6 +42,15 @@ namespace GwCentral.Register.ScootControladores
         protected global::System.Web.UI.WebControls.HiddenField hfLongitude;
 
         /// <summary>
+        /// hfQtdAneis control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfQtdAneis;
+
+        /// <summary>
         /// hfLinhaExcluida control.
         /// </summary>
         /// <remarks>

@@ -844,7 +844,7 @@
                 MontarMenu += '<li><a class="menu-item" runat="server" href="~\Scoot\Entreverdes\Default.aspx"><%= Resources.Resource.entreverdes %></a></li>';
                 MontarMenu += '<li><a class="menu-item" runat="server" href="~\Scoot\Planos\Default.aspx"><%= Resources.Resource.planos %> </a></li>';
                 MontarMenu += '<li><a class="menu-item" runat="server" href="~\Scoot\Agenda\Default.aspx"><%= Resources.Resource.agenda %> </a></li>';
-                MontarMenu += '<li><a class="menu-item" runat="server" href="~\Scoot\ConfiguracoesScoot\DefaultBeta.aspx">Lacos </a></li>';
+                MontarMenu += '<li><a class="menu-item" runat="server" href="~\Scoot\Link\link.aspx">Link</a></li>';
                 MontarMenu += '</ul>';
                 MontarMenu += '</li>';
 

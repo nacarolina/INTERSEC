@@ -439,15 +439,6 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Anterior.
-        /// </summary>
-        internal static string anterior {
-            get {
-                return ResourceManager.GetString("anterior", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Apagado.
         /// </summary>
         internal static string apagado {
@@ -624,6 +615,15 @@ namespace Resources {
         internal static string buscarControlador {
             get {
                 return ResourceManager.GetString("buscarControlador", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Buscar Endereço....
+        /// </summary>
+        internal static string buscarEndereco {
+            get {
+                return ResourceManager.GetString("buscarEndereco", resourceCulture);
             }
         }
         
@@ -835,6 +835,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ciclo Max..
+        /// </summary>
+        internal static string cicloMax {
+            get {
+                return ResourceManager.GetString("cicloMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ciclo Min..
+        /// </summary>
+        internal static string cicloMin {
+            get {
+                return ResourceManager.GetString("cicloMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cliente.
         /// </summary>
         internal static string cliente {
@@ -907,11 +925,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configurações Laços Scoot.
+        ///   Looks up a localized string similar to Configurações Scoot.
         /// </summary>
-        internal static string configuracoesLacosScoot {
+        internal static string configuracoesScoot {
             get {
-                return ResourceManager.GetString("configuracoesLacosScoot", resourceCulture);
+                return ResourceManager.GetString("configuracoesScoot", resourceCulture);
             }
         }
         
@@ -1785,6 +1803,24 @@ namespace Resources {
         internal static string excluirAneisVinculados {
             get {
                 return ResourceManager.GetString("excluirAneisVinculados", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Excluir Anel.
+        /// </summary>
+        internal static string excluirAnel {
+            get {
+                return ResourceManager.GetString("excluirAnel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Este anel e todas as informações serão excluídas permanentemente.
+        /// </summary>
+        internal static string ExclusaoAnel {
+            get {
+                return ResourceManager.GetString("ExclusaoAnel", resourceCulture);
             }
         }
         
@@ -3544,6 +3580,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Permitir Ciclo Duplo.
+        /// </summary>
+        internal static string permitirCicloDuplo {
+            get {
+                return ResourceManager.GetString("permitirCicloDuplo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pesquisar.
         /// </summary>
         internal static string pesquisar {
@@ -3697,15 +3742,6 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Posterior.
-        /// </summary>
-        internal static string posterior {
-            get {
-                return ResourceManager.GetString("posterior", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Potência.
         /// </summary>
         internal static string potencia {
@@ -3747,6 +3783,15 @@ namespace Resources {
         internal static string preenchaNomeSubArea {
             get {
                 return ResourceManager.GetString("preenchaNomeSubArea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preencha todos os campos do Detector!.
+        /// </summary>
+        internal static string preenchaTodosOsCamposDoDetector {
+            get {
+                return ResourceManager.GetString("preenchaTodosOsCamposDoDetector", resourceCulture);
             }
         }
         
@@ -4107,15 +4152,6 @@ namespace Resources {
         internal static string salvoTipoAlert {
             get {
                 return ResourceManager.GetString("salvoTipoAlert", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sato por Software.
-        /// </summary>
-        internal static string satoPorSoftware {
-            get {
-                return ResourceManager.GetString("satoPorSoftware", resourceCulture);
             }
         }
         
@@ -5016,15 +5052,6 @@ namespace Resources {
         internal static string verAgenda {
             get {
                 return ResourceManager.GetString("verAgenda", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Verde.
-        /// </summary>
-        internal static string verde {
-            get {
-                return ResourceManager.GetString("verde", resourceCulture);
             }
         }
         

@@ -2665,7 +2665,6 @@
             }
 
             document.getElementById("txtControladorScn").disabled = true;
-            $("#sleRegiao")[0].disabled = true;
 
             var qtd = parseInt($("#hfQtdAneis").val());
             qtd++;
@@ -2704,7 +2703,6 @@
                 $("#txtNumberofStages" + stageScn).removeClass("is-invalid");
             }
         }
-
         function limpaCamposAnel(anel) {
             //for (var i = 1; i <= 4; i++) {
 
@@ -3007,7 +3005,7 @@
 
 
             $("#divLoading").css("display", "block");
-            var controladorScnFormatado = "X" + $("#sleRegiao").val() + $("#txtControladorScn").val() + "0";
+            var controladorScnFormatado = "X" + $("#sleRegion").val() + $("#txtControladorScn").val() + "0";
             if (document.getElementById("btnSalvar").innerHTML == "Salvar") {
 
                 $.ajax({
@@ -3018,9 +3016,8 @@
                         " 'controladorScn':'" + controladorScnFormatado + "', " +
                         " 'ipControlador':'" + $("#txtIpControlador").val() + "', " +
                         " 'cruzamento':'" + $("#txtCruzamento").val() + "', " +
-                        " 'tempoEnvioEstagio':'" + $("#txtTempoAntesEnvioEstagio").val() + "', " +
-                        " 'modelo':'" + $("#txtModelo").val() + "', " +
-                        " 'usuarioLogado': '" + $("#hfUsuarioLogado").val() + "', " +
+                        " 'lat':'" + $("#hfLatitude").val() + "', " +
+                        " 'usuarioLogado':'" + $("#hfUsuarioLogado").val() + "', " +
                         " 'lon':'" + $("#hfLongitude").val() + "', " +
                         " 'anel1':'" + anel1 + "','anel2':'" + anel2 + "', " +
                         " 'anel3':'" + anel3 + "','anel4':'" + anel4 + "', " +
@@ -3036,7 +3033,7 @@
                         " 'cruzamentoAnel2':'" + cruzamentoAnel2 + "', " +
                         " 'cruzamentoAnel3':'" + cruzamentoAnel3 + "', " +
                         " 'cruzamentoAnel4':'" + cruzamentoAnel4 + "', " +
-                        " 'lat':'" + $("#hfLatitude").val() + "'}",
+                        " 'tempoEnvioEstagio':'" + $("#txtTempoAntesEnvioEstagio").val() + "'}",
                     contentType: "application/json; charset=utf-8",
                     success: function (data) {
 
@@ -3131,7 +3128,6 @@
                     dataType: 'json',
                     data: "{'controladorScn':'" + controladorScnFormatado + "', " +
                         " 'ipControlador':'" + $("#txtIpControlador").val() + "', " +
-                        " 'modelo':'" + $("#txtModelo").val() + "', " +
                         " 'cruzamento':'" + $("#txtCruzamento").val() + "', " +
                         " 'lat':'" + $("#hfLatitude").val() + "', " +
                         " 'usuarioLogado':'" + $("#hfUsuarioLogado").val() + "', " +
@@ -3248,7 +3244,6 @@
             $("#txtIpControlador").val("");
             $("#txtCruzamento").val("");
             $("#txtTempoAntesEnvioEstagio").val("");
-            $("#txtModelo").val("");
 
             $("#hfQtdAneis").val("0");
             $("#rowScn1").css("display", "none");
@@ -3407,8 +3402,7 @@
                                 " data-cruzamentoAnel1='" + lst.cruzamentoAnel1 + "' " +
                                 " data-cruzamentoAnel2='" + lst.cruzamentoAnel2 + "' " +
                                 " data-cruzamentoAnel3='" + lst.cruzamentoAnel3 + "' " +
-                                " data-cruzamentoAnel4='" + lst.cruzamentoAnel4 + "' " +
-                                " data-modelo='" + lst.modelo + "'> " +
+                                " data-cruzamentoAnel4='" + lst.cruzamentoAnel4 + "'> " +
                                 " <i class='ft-edit-3'></i></button></td>";
 
                             cols += "<td style='border-collapse: collapse; padding: 5px; width:1px;'><button type='button' class='btn btn-danger btn-xs' style='cursor:pointer; " +
@@ -3464,7 +3458,6 @@
             $("#txtIpControlador").val($(status).data("ipcontrolador"));
             $("#txtQtdCaractereIdentControlador").val(status.dataset.qtdcaractereidentificacaocontrolador);
             $("#txtTempoAntesEnvioEstagio").val($(status).data("tempoenvioestagio"));
-            $("#txtModelo").val($(status).data("modelo"));
             $("#txtCruzamento").val($(status).data("cruzamento"));
             Geocodificacao();
             $("#hfIdControladorScoot").val($(status).data("id"));
@@ -3570,7 +3563,7 @@
 
             if (qtd == 4) {
                 $("#btnAdicionarAneis").css("display", "none");
-            }  
+            }
             document.getElementById("btnSalvar").innerHTML = "Salvar Alterações";
         }
 
@@ -3707,14 +3700,14 @@
                             var qtd = parseInt($("#hfQtdAneis").val());
                             qtd--;
 
-                            $("#hfQtdAneis").val(qtd); 
-                            if (qtd == 1) {
+                            $("#hfQtdAneis").val(qtd);
+                            if ($("#hfQtdAneis").val() == 1) {
                                 $("#btnExcluirAnel1").css("display", "");
                             }
-                            if (qtd == 2) {
+                            if ($("#hfQtdAneis").val() == 2) {
                                 $("#btnExcluirAnel2").css("display", "");
                             }
-                            if (qtd == 3) {
+                            if ($("#hfQtdAneis").val() == 3) {
                                 $("#btnExcluirAnel3").css("display", "");
                                 $("#btnAdicionarAneis").css("display", "");
                             }
@@ -3724,7 +3717,6 @@
                 }
             });
         }
-
         function filtroDeBusca() {
 
             var input, filter, table, tr, td, i, txtValue;

@@ -882,7 +882,7 @@
   <data name="naoFoiPossivelSalvarProduto" xml:space="preserve">
     <value>Não foi possível salvar o produto.</value>
   </data>
-    <data name="numeroSerieEmUso" xml:space="preserve">
+  <data name="numeroSerieEmUso" xml:space="preserve">
     <value>Este Número de Série já está sendo utilizado.</value>
   </data>
   <data name="renomear" xml:space="preserve">
@@ -1725,9 +1725,6 @@
   <data name="jaExistePlanoNesseHorario" xml:space="preserve">
     <value>Já existe um plano nesse horário!</value>
   </data>
-  <data name="Materiais" xml:space="preserve">
-    <value>Materiais</value>
-  </data>
   <data name="preenchaHorarioCorretamente" xml:space="preserve">
     <value>Preencha o horário corretamente!</value>
   </data>
@@ -1763,9 +1760,6 @@
   </data>
   <data name="patrimonio" xml:space="preserve">
     <value>Patrimônio</value>
-  </data>
-  <data name="numSerie" xml:space="preserve">
-    <value>Número de Série</value>
   </data>
   <data name="tensaoEntrada" xml:space="preserve">
     <value>Tensão de Entrada</value>
@@ -1821,16 +1815,13 @@
   <data name="placasControlador" xml:space="preserve">
     <value>Placas do Controlador</value>
   </data>
-  <data name="insiraTempoEnvioEstagio" xml:space="preserve">
-    <value>O tempo para o envio do estágio deve ser entre 2 e 6.</value>
-  </data>
-  <data name="tempoAntesEnvioEstagio" xml:space="preserve">
-    <value>Tempo para envio do estágio</value>
-  </data>
   <data name="gprsControlador" xml:space="preserve">
     <value>GPRS do Controlador</value>
   </data>
-  <data name="movimentacaoProdutos" xml:space="preserve">
-    <value>Movimentação de Produtos</value>
+  <data name="ExclusaoAnel" xml:space="preserve">
+    <value>Este anel e todas as informações serão excluídas permanentemente</value>
+  </data>
+  <data name="laco" xml:space="preserve">
+    <value>Laço</value>
   </data>
 </root>

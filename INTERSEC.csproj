@@ -4433,6 +4433,7 @@
     <Content Include="ProgramadorSemanforico\Usuarios.aspx" />
     <Content Include="ProgramadorSemanforico\Versao.aspx" />
     <Content Include="Register\AgendaSubAreas\Default.aspx" />
+    <Content Include="Register\Agenda\Agenda.js" />
     <Content Include="Register\Agenda\Default.aspx" />
     <Content Include="Register\Areas\Area.aspx" />
     <Content Include="Register\Areas\Area.js" />
@@ -4620,6 +4621,7 @@
     <Content Include="Scoot\ConfiguracoesScoot\Default.aspx" />
     <Content Include="Scoot\ConfiguracoesScoot\DefaultBeta.aspx" />
     <Content Include="Scoot\Entreverdes\Default.aspx" />
+    <Content Include="Scoot\Link\link.aspx" />
     <Content Include="Scoot\Planos\Default.aspx" />
     <Content Include="Scoot\ScootControladores\Default.aspx" />
     <Content Include="Scripts\autoComplete.js" />
@@ -5148,6 +5150,12 @@
     </Compile>
     <Compile Include="Scoot\Entreverdes\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scoot\Link\link.aspx.cs">
+      <DependentUpon>link.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scoot\Link\link.aspx.designer.cs">
+      <DependentUpon>link.aspx</DependentUpon>
     </Compile>
     <Compile Include="Scoot\Planos\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
